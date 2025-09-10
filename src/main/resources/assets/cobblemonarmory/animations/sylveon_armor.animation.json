@@ -1,0 +1,73 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"ear_right": {
+					"rotation": ["2*math.sin(q.anim_time*90*2+90)-math.clamp(math.sin(q.anim_time*90*2-90),-1,1)", 0, 0]
+				},
+				"ear_left": {
+					"rotation": ["2*math.sin(q.anim_time*90*2+90)-math.clamp(math.sin(q.anim_time*90*2-90),-1,1)", 0, 0]
+				},
+				"ear_ribbon_right": {
+					"rotation": [0, "35-math.sin(q.anim_time*90*3-45)*3", 0]
+				},
+				"ear_ribbon_right2": {
+					"rotation": [0, "-7.5-math.sin(q.anim_time*90*3+90)*3", 0]
+				},
+				"ear_ribbon_right3": {
+					"rotation": [0, "-50-math.sin(q.anim_time*90*3+45)*5", 0]
+				},
+				"ear_ribbon_right4": {
+					"rotation": [0, "-90-math.sin(q.anim_time*90*3-90)*10", 0]
+				},
+				"ear_ribbon_left": {
+					"rotation": [5.65908, "-26.2528+math.sin(q.anim_time*90*3-90)*4", -11.41838]
+				},
+				"ear_ribbon_left2": {
+					"rotation": [0, "-45+math.sin(q.anim_time*90*3-180)*6", 0]
+				},
+				"ear_ribbon_left3": {
+					"rotation": [0, "-42.5+math.sin(q.anim_time*90*3-60-180)*6", 0]
+				},
+				"ear_ribbon_left4": {
+					"rotation": [0, "-35+math.sin(q.anim_time*90*3-120-180)*8", 0]
+				},
+				"ribbon_left": {
+					"rotation": [-3.34795, "7.3356+math.sin(q.anim_time*90*3+60)*1", -32.31711]
+				},
+				"ribbon_left2": {
+					"rotation": [0, "-40+math.sin(q.anim_time*90*3-30)*4", 0]
+				},
+				"ribbon_left3": {
+					"rotation": [0, "-25+math.sin(q.anim_time*90*3-120)*6", 0]
+				},
+				"ribbon_left4": {
+					"rotation": [0, "-15+math.sin(q.anim_time*90*3-180)*8", 0]
+				},
+				"tail": {
+					"rotation": ["20+6*(math.sin(q.anim_time*90*2)*1)+6*(math.sin(q.anim_time*90*2/2)*1)", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["5+6*(math.sin(q.anim_time*90*2-90)*1)+6*(math.sin(q.anim_time*90*2/2-90)*1)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["5+6*(math.sin(q.anim_time*90*2-90)*1)+6*(math.sin(q.anim_time*90*2/2-90)*1)", 0, 0]
+				},
+				"ribbon_right": {
+					"rotation": [-9.46476, "-20.3281-math.sin(q.anim_time*90*3-120)*2", 31.30059]
+				},
+				"ribbon_right2": {
+					"rotation": [0, "45-math.sin(q.anim_time*90*3-120)*2", 0]
+				},
+				"ribbon_right3": {
+					"rotation": [0, "25-math.sin(q.anim_time*90*3+150)*6", 0]
+				},
+				"ribbon_right4": {
+					"rotation": [0, "10-math.sin(q.anim_time*90*3+90)*8", 0]
+				}
+			}
+		}
+	}
+}

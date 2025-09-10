@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:sylveon",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:eevee_fur",
+       "percentage": 8.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"ear_left": {
+					"rotation": [0, 0, "math.sin(q.anim_time*90*2+90)-math.clamp(math.sin(q.anim_time*90*2-90),-1,1)"]
+				},
+				"ear_right": {
+					"rotation": [0, 0, "-math.sin(q.anim_time*90*2+90)+math.clamp(math.sin(q.anim_time*90*2-90),-1,1)"]
+				},
+				"tail": {
+					"rotation": [
+						"math.clamp(1*(math.sin(q.anim_time*90*2+90)*1-1),0,7)-(math.sin(q.anim_time*90*2+90)*1)",
+						"(math.sin(q.anim_time*90*2)*1)+(math.sin(q.anim_time*90*2/2)*1)",
+						0
+					]
+				}
+			}
+		}
+	}
+}

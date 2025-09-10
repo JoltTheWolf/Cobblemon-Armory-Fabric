@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"head_flame": {
+					"rotation": ["-2.5+Math.cos((query.anim_time) * 90 * 4 - 180) * 5", 0, 0]
+				},
+				"head_flame2": {
+					"rotation": ["5+Math.cos((query.anim_time) * 90 * 4 - 280) * 8", 0, 0]
+				},
+				"head_flame3": {
+					"rotation": ["-2.5+Math.cos((query.anim_time) * 90 * 4 - 360) * 10", 0, 0]
+				}
+			}
+		}
+	}
+}

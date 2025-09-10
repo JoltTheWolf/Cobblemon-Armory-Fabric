@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:charmander",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:charizard_scales",
+       "percentage": 10.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

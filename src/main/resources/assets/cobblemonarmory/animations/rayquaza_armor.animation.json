@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"bones": {
+				"tail1": {
+					"rotation": [-37.59431, "1.9738+math.sin(q.anim_time * 68 + 2 * 0.8) *9 ", -1.52501]
+				},
+				"tail2": {
+					"rotation": [11.99878, "0.4751+math.sin(q.anim_time * 68 + 2 * 0.8) *8", -0.30052]
+				},
+				"tail3": {
+					"rotation": [8.4539, "-0.6312+math.sin(q.anim_time * 68 + 2 * 0.8) * (8 * math.pow(0.75, 2))", 5.14625]
+				},
+				"tail4": {
+					"rotation": [32.08962, "-2.8219+math.sin(q.anim_time * 68 + 2 * 0.8) *8", -5.55627]
+				},
+				"tail5": {
+					"rotation": [37.58819, "-1.9918+math.sin(q.anim_time * 68 + 2 * 0.8) *15 ", -1.52454]
+				}
+			}
+		}
+	}
+}

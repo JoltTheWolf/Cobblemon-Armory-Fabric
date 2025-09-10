@@ -1,0 +1,17 @@
+{
+ "target": "cobblemon:tinkaton",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+        "item": "cobblemonarmory:tinkaton_hammer_piece",
+        "percentage": 18.0
+      },
+      {
+        "item": "cobblemonarmory:tinkaton_handle_piece",
+        "percentage": 18.0
+      }
+   ]
+ }
+}

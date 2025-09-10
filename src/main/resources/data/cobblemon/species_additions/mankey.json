@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:mankey",
+
+ "drops": {
+   "amount": 1,
+   "entries": [
+     {
+       "item": "cobblemonarmory:primeape_fur",
+       "percentage": 10.0,
+       "quantityRange": "0-1"
+     }
+   ]
+ }
+}

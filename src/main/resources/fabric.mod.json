@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cobblemonarmory",
+	"version": "${version}",
+	"name": "Cobblemon:Armory",
+	"description": "Work-in-progress fabric port of Cobblemon:Armory!",
+	"authors": [
+		"JoltTheWolf"
+	],
+	"contact": {
+		"discord": "https://discord.com/invite/Wph4w8vEkw"
+	},
+	"license": "MIT",
+	"icon": "assets/cobblemonarmory/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.joltthewolf.cobblemonarmory.CobblemonArmory"
+		],
+        "client": [
+          "net.joltthewolf.cobblemonarmory.CobblemonArmoryClient"
+        ]
+	},
+	"mixins": [
+		"cobblemonarmory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+        "geckolib": ">=4.7.7"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
