@@ -1,0 +1,7 @@
+{
+  "parent": "cobblemonarmory:custom/bastiodon_shield_pose",
+  "textures": {
+    "0": "cobblemonarmory:block/bastiodon_shield",
+    "particle": "minecraft:item/spruce_door"
+  }
+}

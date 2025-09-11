@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "item": "cobblemonarmory:eevee_fur"
+  },
+  "result": {
+    "id": "cobblemonarmory:eevee_armor_leggings"
+  }
+}

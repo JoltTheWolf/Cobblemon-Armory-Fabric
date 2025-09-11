@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:eevee_armor_leggings"
+  },
+  "addition": {
+    "item": "cobblemon:thunder_stone"
+  },
+  "result": {
+    "id": "cobblemonarmory:jolteon_armor_leggings"
+  }
+}

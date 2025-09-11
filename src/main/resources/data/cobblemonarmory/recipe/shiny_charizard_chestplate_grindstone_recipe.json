@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:shiny_charizard_armor_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:shears"
+  },
+  "result": {
+    "id": "cobblemonarmory:charizard_armor_chestplate"
+  }
+}

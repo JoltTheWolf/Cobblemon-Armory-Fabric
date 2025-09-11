@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "cobblemon:poke_ball"
+    },
+    "c": {
+      "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+    }
+  },
+  "result": {
+    "id": "cobblemonarmory:cobblemon_smithing_upgrade",
+    "count": 2
+  }
+}

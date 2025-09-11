@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:shiny_jolteon_armor_helmet"
+  },
+  "addition": {
+    "item": "minecraft:shears"
+  },
+  "result": {
+    "id": "cobblemonarmory:jolteon_armor_helmet"
+  }
+}

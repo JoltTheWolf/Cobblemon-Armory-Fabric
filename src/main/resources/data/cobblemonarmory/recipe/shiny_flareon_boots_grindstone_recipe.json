@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:shiny_flareon_armor_boots"
+  },
+  "addition": {
+    "item": "minecraft:shears"
+  },
+  "result": {
+    "id": "cobblemonarmory:flareon_armor_boots"
+  }
+}

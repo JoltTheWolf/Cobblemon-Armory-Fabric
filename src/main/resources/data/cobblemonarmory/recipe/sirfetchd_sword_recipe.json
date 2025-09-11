@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "cobblemon:medicinal_leek"
+  },
+  "result": {
+    "id": "cobblemonarmory:sirfetchd_sword"
+  }
+}

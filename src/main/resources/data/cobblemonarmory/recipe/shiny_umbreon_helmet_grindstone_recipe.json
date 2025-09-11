@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:shiny_umbreon_armor_helmet"
+  },
+  "addition": {
+    "item": "minecraft:shears"
+  },
+  "result": {
+    "id": "cobblemonarmory:umbreon_armor_helmet"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "cobblemonarmory:displaysettings/starmie_sword",
+  "textures": {
+    "layer0": "cobblemonarmory:item/starmie_sword"
+  }
+}

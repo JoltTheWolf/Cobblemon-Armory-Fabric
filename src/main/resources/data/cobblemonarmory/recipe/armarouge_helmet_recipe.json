@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "addition": {
+    "item": "cobblemon:auspicious_armor"
+  },
+  "result": {
+    "id": "cobblemonarmory:armarouge_armor_helmet"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "cobblemonarmory:rayquaza_scale"
+  },
+  "result": {
+    "id": "cobblemonarmory:rayquaza_armor_chestplate"
+  }
+}

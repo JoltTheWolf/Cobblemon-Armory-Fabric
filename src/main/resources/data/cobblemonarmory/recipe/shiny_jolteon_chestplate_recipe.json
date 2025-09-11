@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:jolteon_armor_chestplate"
+  },
+  "addition": {
+    "item": "cobblemon:shiny_stone"
+  },
+  "result": {
+    "id": "cobblemonarmory:shiny_jolteon_armor_chestplate"
+  }
+}

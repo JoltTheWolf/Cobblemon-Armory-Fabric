@@ -1,0 +1,15 @@
+{
+  "parent": "cobblemonarmory:custom/bastiodon_shield",
+  "textures": {
+    "0": "cobblemonarmory:block/bastiodon_shield",
+    "particle": "minecraft:item/spruce_door"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "cobblemonarmory:item/bastiodon_shield_0"
+    }
+  ]
+}

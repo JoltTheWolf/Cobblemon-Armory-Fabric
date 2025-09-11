@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:shield"
+  },
+  "addition": {
+    "item": "cobblemonarmory:bastiodon_skull"
+  },
+  "result": {
+    "id": "cobblemonarmory:bastiodon_shield"
+  }
+}

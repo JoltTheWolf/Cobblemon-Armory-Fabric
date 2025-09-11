@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "cobblemonarmory:starmie_pieces"
+  },
+  "result": {
+    "id": "cobblemonarmory:starmie_sword"
+  }
+}

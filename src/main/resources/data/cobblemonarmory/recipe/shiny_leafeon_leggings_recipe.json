@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "cobblemonarmory:leafeon_armor_leggings"
+  },
+  "addition": {
+    "item": "cobblemon:shiny_stone"
+  },
+  "result": {
+    "id": "cobblemonarmory:shiny_leafeon_armor_leggings"
+  }
+}

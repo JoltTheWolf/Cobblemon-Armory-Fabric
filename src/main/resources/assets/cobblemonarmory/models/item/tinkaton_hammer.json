@@ -1,0 +1,6 @@
+{
+  "parent": "cobblemonarmory:displaysettings/tinkatonhammer",
+  "textures": {
+    "layer0": "cobblemonarmory:item/tinkaton_hammer"
+  }
+}

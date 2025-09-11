@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "addition": {
+    "item": "cobblemon:malicious_armor"
+  },
+  "result": {
+    "id": "cobblemonarmory:ceruledge_armor_boots"
+  }
+}

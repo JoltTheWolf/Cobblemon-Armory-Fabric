@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "baa",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "cobblemonarmory:primeape_fur"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "cobblemonarmory:primeape_gloves",
+    "count": 1
+  }
+}

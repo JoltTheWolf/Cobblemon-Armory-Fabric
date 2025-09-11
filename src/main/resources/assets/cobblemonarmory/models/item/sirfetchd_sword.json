@@ -1,0 +1,6 @@
+{
+  "parent": "cobblemonarmory:displaysettings/sirfetchd_sword",
+  "textures": {
+    "layer0": "cobblemonarmory:item/sirfetchd_sword"
+  }
+}
