@@ -1,6 +1,12 @@
 {
-  "parent": "cobblemonarmory:displaysettings/tinkatonhammer",
-  "textures": {
-    "layer0": "cobblemonarmory:item/tinkaton_hammer"
-  }
+  "parent": "minecraft:builtin/entity",
+  "display": {
+    "thirdperson_righthand": {"rotation": [0, -180, 0], "translation": [-0.5, -2.5, 1.25], "scale": [0.75, 0.75, 0.75]},
+    "thirdperson_lefthand": {"rotation": [0, -180, 0], "translation": [-0.5, -2.5, 1.25], "scale": [0.75, 0.75, 0.75]},
+    "firstperson_righthand": {"rotation": [-3, -180, 0], "translation": [3.75, -0.5, 0], "scale": [0.78, 0.78, 0.78]},
+    "firstperson_lefthand": {"rotation": [-3, -180, 0], "translation": [3.75, -0.5, 0], "scale": [0.78, 0.78, 0.78]}, "ground": {"scale": [0.5, 0.5, 0.5]},
+    "gui": {"rotation": [0, 90, 0], "translation": [0, -7.5, 0], "scale": [0.35, 0.35, 0.35]},
+    "fixed": {"rotation": [0, -90, 0], "translation": [0, -7.5, 0], "scale": [0.35, 0.35, 0.35]}
+  },
+  "textures": {"particle": "cobblemonarmory:item/tinkaton_hammer"}
 }

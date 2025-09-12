@@ -1,7 +1,0 @@
-{
-  "parent": "cobblemonarmory:custom/primeape_gloves",
-  "textures": {
-    "0": "cobblemonarmory:block/primeape_gloves",
-    "particle": "cobblemonarmory:item/primeape_glove_icon"
-  }
-}
