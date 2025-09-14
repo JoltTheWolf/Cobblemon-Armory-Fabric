@@ -1,16 +1,16 @@
 package net.joltthewolf.cobblemonarmory.item;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+
 import net.joltthewolf.cobblemonarmory.CobblemonArmory;
-import net.joltthewolf.cobblemonarmory.item.custom.PrimeapeGloveItem;
-import net.joltthewolf.cobblemonarmory.item.custom.SirfetchdSwordItem;
-import net.joltthewolf.cobblemonarmory.item.custom.StarmieSwordItem;
-import net.joltthewolf.cobblemonarmory.item.custom.TinkatonHammerItem;
+import net.joltthewolf.cobblemonarmory.item.custom.*;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.joltthewolf.cobblemonarmory.item.custom.RayquazaArmorItem;
+
+
 
 public class ModItems {
     public static final Item CHARIZARD_SCALES = registerItem("charizard_scales", new Item(new Item.Settings()));
@@ -119,10 +119,6 @@ public class ModItems {
     public static final Item SHINY_JOLTEON_ARMOR_CHESTPLATE = registerItem("shiny_jolteon_armor_chestplate", new Item(new Item.Settings()));
     public static final Item SHINY_JOLTEON_ARMOR_LEGGINGS = registerItem("shiny_jolteon_armor_leggings", new Item(new Item.Settings()));
     public static final Item SHINY_JOLTEON_ARMOR_BOOTS = registerItem("shiny_jolteon_armor_boots", new Item(new Item.Settings()));
-    public static final Item RAYQUAZA_ARMOR_HELMET = registerItem("rayquaza_armor_helmet", new Item(new Item.Settings()));
-    public static final Item RAYQUAZA_ARMOR_CHESTPLATE = registerItem("rayquaza_armor_chestplate", new Item(new Item.Settings()));
-    public static final Item RAYQUAZA_ARMOR_LEGGINGS = registerItem("rayquaza_armor_leggings", new Item(new Item.Settings()));
-    public static final Item RAYQUAZA_ARMOR_BOOTS = registerItem("rayquaza_armor_boots", new Item(new Item.Settings()));
     public static final Item SHINY_RAYQUAZA_ARMOR_HELMET = registerItem("shiny_rayquaza_armor_helmet", new Item(new Item.Settings()));
     public static final Item SHINY_RAYQUAZA_ARMOR_CHESTPLATE = registerItem("shiny_rayquaza_armor_chestplate", new Item(new Item.Settings()));
     public static final Item SHINY_RAYQUAZA_ARMOR_LEGGINGS = registerItem("shiny_rayquaza_armor_leggings", new Item(new Item.Settings()));
@@ -131,17 +127,17 @@ public class ModItems {
     public static final Item TINKATON_HAMMER = Registry.register(Registries.ITEM, Identifier.of("cobblemonarmory", "tinkaton_hammer"), new TinkatonHammerItem(new Item.Settings().maxCount(1)));
     public static final Item SIRFETCHD_SWORD = Registry.register(Registries.ITEM, Identifier.of("cobblemonarmory", "sirfetchd_sword"), new SirfetchdSwordItem(new Item.Settings().maxCount(1)));
     public static final Item PRIMEAPE_GLOVE = Registry.register(Registries.ITEM, Identifier.of("cobblemonarmory", "primeape_glove"), new PrimeapeGloveItem(new Item.Settings().maxCount(1)));
+    public static final Item RAYQUAZA_ARMOR_HELMET     = registerItem("rayquaza_armor_helmet",     new RayquazaArmorItem(ArmorItem.Type.HELMET,     new Item.Settings()));
+    public static final Item RAYQUAZA_ARMOR_CHESTPLATE = registerItem("rayquaza_armor_chestplate", new RayquazaArmorItem(ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static final Item RAYQUAZA_ARMOR_LEGGINGS   = registerItem("rayquaza_armor_leggings",   new RayquazaArmorItem(ArmorItem.Type.LEGGINGS,   new Item.Settings()));
+    public static final Item RAYQUAZA_ARMOR_BOOTS      = registerItem("rayquaza_armor_boots",      new RayquazaArmorItem(ArmorItem.Type.BOOTS,      new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CobblemonArmory.MOD_ID, name), item);
     }
 
-
     public static void registerModItems() {
         CobblemonArmory.LOGGER.info("Registering Mod Items for " + CobblemonArmory.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-
-        });
     }
-
-
 }
+

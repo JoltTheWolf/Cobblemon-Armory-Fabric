@@ -2,10 +2,10 @@ package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
-import net.joltthewolf.cobblemonarmory.Renderer.PrimeapeGloveRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.SirfetchdSwordRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.StarmieSwordRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.TinkatonHammerRenderer;
+import net.joltthewolf.cobblemonarmory.client.renderer.PrimeapeGloveRenderer;
+import net.joltthewolf.cobblemonarmory.client.renderer.SirfetchdSwordRenderer;
+import net.joltthewolf.cobblemonarmory.client.renderer.StarmieSwordRenderer;
+import net.joltthewolf.cobblemonarmory.client.renderer.TinkatonHammerRenderer;
 import net.joltthewolf.cobblemonarmory.item.ModItems;
 
 public class CobblemonArmoryClient implements ClientModInitializer {

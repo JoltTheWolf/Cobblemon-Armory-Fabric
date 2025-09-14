@@ -1,4 +1,4 @@
-package net.joltthewolf.cobblemonarmory.model;
+package net.joltthewolf.cobblemonarmory.client.model;
 
 import net.joltthewolf.cobblemonarmory.item.custom.PrimeapeGloveItem;
 import software.bernie.geckolib.model.DefaultedItemGeoModel;
