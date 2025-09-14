@@ -121,10 +121,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SHINY_JOLTEON_ARMOR_CHESTPLATE);
                         entries.add(ModItems.SHINY_JOLTEON_ARMOR_LEGGINGS);
                         entries.add(ModItems.SHINY_JOLTEON_ARMOR_BOOTS);
-                        entries.add(ModItems.RAYQUAZA_ARMOR_HELMET);
-                        entries.add(ModItems.RAYQUAZA_ARMOR_CHESTPLATE);
-                        entries.add(ModItems.RAYQUAZA_ARMOR_LEGGINGS);
-                        entries.add(ModItems.RAYQUAZA_ARMOR_BOOTS);
                         entries.add(ModItems.SHINY_RAYQUAZA_ARMOR_HELMET);
                         entries.add(ModItems.SHINY_RAYQUAZA_ARMOR_CHESTPLATE);
                         entries.add(ModItems.SHINY_RAYQUAZA_ARMOR_LEGGINGS);

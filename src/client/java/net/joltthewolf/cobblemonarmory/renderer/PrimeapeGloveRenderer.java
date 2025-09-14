@@ -1,4 +1,4 @@
-package net.joltthewolf.cobblemonarmory.Renderer;
+package net.joltthewolf.cobblemonarmory.renderer;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

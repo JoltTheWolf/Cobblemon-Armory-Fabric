@@ -2,11 +2,9 @@ package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
-import net.joltthewolf.cobblemonarmory.Renderer.PrimeapeGloveRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.SirfetchdSwordRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.StarmieSwordRenderer;
-import net.joltthewolf.cobblemonarmory.Renderer.TinkatonHammerRenderer;
+import net.joltthewolf.cobblemonarmory.renderer.*;
 import net.joltthewolf.cobblemonarmory.item.ModItems;
+import software.bernie.geckolib.renderer.GeoArmorRenderer;
 
 public class CobblemonArmoryClient implements ClientModInitializer {
     @Override public void onInitializeClient() {
