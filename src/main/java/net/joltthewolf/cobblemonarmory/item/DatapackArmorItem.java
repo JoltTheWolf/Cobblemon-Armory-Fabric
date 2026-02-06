@@ -1,7 +1,6 @@
 package net.joltthewolf.cobblemonarmory.item;
 
 
-import net.joltthewolf.cobblemonarmory.client.DatapackArmorItemRenderer;
 import net.joltthewolf.cobblemonarmory.client.DatapackArmorRenderer;
 import net.joltthewolf.cobblemonarmory.registry.ComponentRegistry;
 import net.minecraft.client.model.HumanoidModel;
@@ -78,7 +77,7 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
     public void createGeoRenderer(Consumer<GeoRenderProvider> consumer) {
         consumer.accept(new GeoRenderProvider() {
             private DatapackArmorRenderer renderer;
-            private DatapackArmorItemRenderer itemRenderer;
+            private ItemStack lastStack = ItemStack.EMPTY;
 
             @Override
             public <T extends LivingEntity> HumanoidModel<?> getGeoArmorRenderer(
@@ -86,6 +85,7 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
                     ItemStack itemStack,
                     @Nullable EquipmentSlot equipmentSlot,
                     @Nullable HumanoidModel<T> original) {
+
                 this.lastStack = itemStack;
 
                 if (this.renderer == null)
@@ -95,18 +95,6 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
 
                 return this.renderer;
             }
-
-            private ItemStack lastStack = ItemStack.EMPTY;
-
-            @Override
-            public DatapackArmorItemRenderer getGeoItemRenderer() {
-                if (this.itemRenderer == null)
-                    this.itemRenderer = new DatapackArmorItemRenderer();
-                return this.itemRenderer;
-            }
-
-
         });
     }
-
 }
