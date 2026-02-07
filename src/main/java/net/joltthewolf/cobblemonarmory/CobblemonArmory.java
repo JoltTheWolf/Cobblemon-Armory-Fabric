@@ -1,7 +1,11 @@
 package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ModInitializer;
+import net.joltthewolf.cobblemonarmory.recipe.ArmoryRecipes;
 import net.joltthewolf.cobblemonarmory.registry.*;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.joltthewolf.cobblemonarmory.command.ArmoryDebugCommand;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,5 +23,10 @@ public class CobblemonArmory implements ModInitializer {
         LootInjectorRegistry.init();
         RightClickEntityRegistry.init();
         ComponentRegistry.init();
-	}
+        ArmoryRecipes.init();
+        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
+            ArmoryDebugCommand.register(dispatcher);
+        });
+
+    }
 }
