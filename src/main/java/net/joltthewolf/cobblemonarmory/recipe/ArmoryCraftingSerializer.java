@@ -3,9 +3,10 @@ package net.joltthewolf.cobblemonarmory.recipe;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.ByteBufCodecs;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.resources.ResourceLocation;
@@ -14,7 +15,24 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 
 public class ArmoryCraftingSerializer implements RecipeSerializer<ArmoryCraftingRecipe> {
 
-    // Data structures for JSON + network
+    // Serializer ID used in recipe JSON:
+    // "type": "cobblemonarmory:armory_crafting"
+    public static final ResourceLocation ID =
+            ResourceLocation.fromNamespaceAndPath("cobblemonarmory", "armory_crafting");
+
+    // Use a singleton instance
+    public static final ArmoryCraftingSerializer INSTANCE = new ArmoryCraftingSerializer();
+
+    /**
+     * Call this once during mod init (onInitialize) to register the serializer.
+     */
+    public static void register() {
+        Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, ID, INSTANCE);
+    }
+
+    // ----------------------------
+    // Ingredient + Result specs
+    // ----------------------------
     public record IngredientSpec(Item item, ResourceLocation materialId, int count) {
         public static final MapCodec<IngredientSpec> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
                 BuiltInRegistries.ITEM.byNameCodec().fieldOf("item").forGetter(IngredientSpec::item),
@@ -47,6 +65,9 @@ public class ArmoryCraftingSerializer implements RecipeSerializer<ArmoryCrafting
                 );
     }
 
+    // ----------------------------
+    // Recipe codecs
+    // ----------------------------
     public static final MapCodec<ArmoryCraftingRecipe> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
             IngredientSpec.CODEC.fieldOf("ingredient").forGetter(ArmoryCraftingRecipe::ingredient),
             ResultSpec.CODEC.fieldOf("result").forGetter(ArmoryCraftingRecipe::result)
