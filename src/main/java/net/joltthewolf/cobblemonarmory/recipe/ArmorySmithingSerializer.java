@@ -15,7 +15,6 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 
 public class ArmorySmithingSerializer implements RecipeSerializer<ArmorySmithingRecipe> {
 
-    // "type": "cobblemonarmory:armory_smithing"
     public static final ResourceLocation ID =
             ResourceLocation.fromNamespaceAndPath("cobblemonarmory", "armory_smithing");
 
@@ -37,7 +36,6 @@ public class ArmorySmithingSerializer implements RecipeSerializer<ArmorySmithing
                 );
     }
 
-    // Option A: base is the blank armor piece (dp_helmet, dp_chestplate, etc.) -> no material_id here
     public record BaseSpec(Item item) {
         public static final MapCodec<BaseSpec> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
                 BuiltInRegistries.ITEM.byNameCodec().fieldOf("item").forGetter(BaseSpec::item)
@@ -50,7 +48,6 @@ public class ArmorySmithingSerializer implements RecipeSerializer<ArmorySmithing
                 );
     }
 
-    // Option A: addition is the dp_item with material_id
     public record AdditionSpec(Item item, ResourceLocation materialId) {
         public static final MapCodec<AdditionSpec> CODEC = RecordCodecBuilder.mapCodec(inst -> inst.group(
                 BuiltInRegistries.ITEM.byNameCodec().fieldOf("item").forGetter(AdditionSpec::item),

@@ -75,7 +75,6 @@ public class ArmorySmithingRecipe implements SmithingRecipe {
         return preview;
     }
 
-    // Smithing UI highlights/ghost items
     @Override public boolean isTemplateIngredient(ItemStack stack) { return stack.getItem() == template.item(); }
     @Override public boolean isBaseIngredient(ItemStack stack) { return stack.getItem() == base.item(); }
     @Override public boolean isAdditionIngredient(ItemStack stack) { return stack.getItem() == addition.item(); }

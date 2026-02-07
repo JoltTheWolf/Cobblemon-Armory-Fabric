@@ -1,7 +1,7 @@
 package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ModInitializer;
-import net.joltthewolf.cobblemonarmory.recipe.ArmorySmithingSerializer;
+import net.joltthewolf.cobblemonarmory.recipe.ArmoryRecipeRegistry;
 import net.joltthewolf.cobblemonarmory.registry.*;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.joltthewolf.cobblemonarmory.command.ArmoryDebugCommand;
@@ -16,7 +16,7 @@ public class CobblemonArmory implements ModInitializer {
 
     @Override
 	public void onInitialize() {
-        ArmorySmithingSerializer.register();
+        ArmoryRecipeRegistry.init();
         ItemRegistry.init();
         ArmorRegistry.init();
         ItemGroupRegistry.init();
