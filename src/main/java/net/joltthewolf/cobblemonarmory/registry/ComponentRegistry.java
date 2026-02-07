@@ -13,6 +13,12 @@ public final class ComponentRegistry {
     public static final DataComponentType<ResourceLocation> ARMOR_SET_ID =
             register("armor_set_id", b -> b.persistent(ResourceLocation.CODEC));
 
+    public static final DataComponentType<ResourceLocation> MATERIAL_ID =
+            register("material_id", b -> b
+                    .persistent(ResourceLocation.CODEC)
+                    .networkSynchronized(ResourceLocation.STREAM_CODEC)
+            );
+
     private static <T> DataComponentType<T> register(String path, UnaryOperator<DataComponentType.Builder<T>> op) {
         return Registry.register(
                 BuiltInRegistries.DATA_COMPONENT_TYPE,
@@ -22,3 +28,4 @@ public final class ComponentRegistry {
 
     public static void init() {}
 }
+

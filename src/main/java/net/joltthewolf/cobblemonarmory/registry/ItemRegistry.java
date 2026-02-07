@@ -231,6 +231,9 @@ public final class ItemRegistry {
             ArmorRegistry.resolveDatapackMaterial("armor_base"),
             ArmorItem.Type.BOOTS,
             ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+    public static final Item DP_ITEM = register("dp_item",
+            new DpItem(new Item.Properties().stacksTo(64)));
+
 
 
     private static ResourceLocation id(String path) {
