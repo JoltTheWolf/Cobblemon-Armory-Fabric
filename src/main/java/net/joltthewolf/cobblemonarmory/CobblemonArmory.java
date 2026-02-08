@@ -35,4 +35,15 @@ public class CobblemonArmory implements ModInitializer {
         });
 
     }
+    private static void verifySignature() {
+        final String expected = "JTWCA";
+        try {
+            String actual = net.joltthewolf.cobblemonarmory.util.ArmorySignature.SIGNATURE;
+            if (!expected.equals(actual)) {
+                LOGGER.warn("[{}] Signature mismatch.", MODID);
+            }
+        } catch (Throwable t) {
+            LOGGER.warn("[{}] Signature missing.", MODID);
+        }
+    }
 }
