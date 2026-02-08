@@ -1,3 +1,9 @@
+/*
+ * Cobblemon: Armory
+ * Copyright (c) 2026 JoltTheWolf
+ * SPDX-License-Identifier: LicenseRef-Cobblemon-Armory
+ */
+
 package net.joltthewolf.cobblemonarmory.recipe;
 
 import net.minecraft.core.Registry;
