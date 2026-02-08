@@ -1,3 +1,10 @@
+/*
+ * Cobblemon: Armory
+ * Copyright (c) 2026 JoltTheWolf
+ * SPDX-License-Identifier: LicenseRef-Cobblemon-Armory
+ */
+
+
 package net.joltthewolf.cobblemonarmory.client;
 
 import net.joltthewolf.cobblemonarmory.item.DatapackArmorItem;
