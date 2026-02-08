@@ -22,6 +22,7 @@ public class CobblemonArmory implements ModInitializer {
 
     @Override
 	public void onInitialize() {
+        verifySignature();
         ArmoryRecipeRegistry.init();
         ItemRegistry.init();
         ArmorRegistry.init();
