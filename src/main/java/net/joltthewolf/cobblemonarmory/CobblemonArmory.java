@@ -7,6 +7,7 @@
 package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ModInitializer;
+import net.joltthewolf.cobblemonarmory.drops.ArmoryCobblemonDropHook;
 import net.joltthewolf.cobblemonarmory.recipe.ArmoryRecipeRegistry;
 import net.joltthewolf.cobblemonarmory.registry.*;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -23,6 +24,7 @@ public class CobblemonArmory implements ModInitializer {
     @Override
 	public void onInitialize() {
         verifySignature();
+        ArmoryCobblemonDropHook.init();
         ArmoryRecipeRegistry.init();
         ItemRegistry.init();
         ArmorRegistry.init();
@@ -38,12 +40,12 @@ public class CobblemonArmory implements ModInitializer {
     private static void verifySignature() {
         final String expected = "JTWCA";
         try {
-            String actual = net.joltthewolf.cobblemonarmory.util.ArmorySignature.SIGNATURE;
+            String actual = net.joltthewolf.cobblemonarmory.registry.ArmorySignature.SIGNATURE;
             if (!expected.equals(actual)) {
-                LOGGER.warn("[{}] Signature mismatch.", MODID);
+                LOGGER.warn("[{}] Signature mismatch.", MOD_ID);
             }
         } catch (Throwable t) {
-            LOGGER.warn("[{}] Signature missing.", MODID);
+            LOGGER.warn("[{}] Signature missing.", MOD_ID);
         }
     }
 }

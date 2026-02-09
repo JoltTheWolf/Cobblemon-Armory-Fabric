@@ -13,9 +13,10 @@ import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
+import software.bernie.geckolib.animation.AnimationController;
+import software.bernie.geckolib.animation.PlayState;
+import software.bernie.geckolib.animation.RawAnimation;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.GeoRenderProvider;
 import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
@@ -23,8 +24,8 @@ import software.bernie.geckolib.util.GeckoLibUtil;
 import software.bernie.geckolib.animation.AnimatableManager;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.Level;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.world.item.Item;
 import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
@@ -41,14 +42,30 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
         super(material, type, props);
     }
 
-    public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        ResourceLocation id = getSetId(stack);
-        tooltip.add(Component.literal("set_id =" + (id == null ? "null" : id.toString())));
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+        super.appendHoverText(stack, context, tooltip, flag);
+
+        if (Screen.hasShiftDown()) {
+            ResourceLocation id = getSetId(stack);
+            tooltip.add(Component.literal("set_id = " + (id == null ? "null" : id.toString())));
+        }
     }
+
 
 
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(new AnimationController<>(
+                this,
+                "controller",
+                0,
+                state -> {
+                    // Plays the "idle" animation from your .animation.json
+                    state.setAndContinue(RawAnimation.begin().thenLoop("idle"));
+                    return PlayState.CONTINUE;
+                }
+        ));
     }
 
 
@@ -60,6 +77,26 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
     public static ResourceLocation getSetId(ItemStack stack) {
         return stack.get(ComponentRegistry.ARMOR_SET_ID);
     }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        ResourceLocation setId = getSetId(stack);
+
+        // If no set_id is present, fall back to the normal translated item name
+        if (setId == null) {
+            return super.getName(stack);
+        }
+
+        // Use the actual armor piece type (helmet/chestplate/leggings/boots)
+        String piece = pieceSuffixFor(this.getType());
+
+        // Datapack-provided translation key:
+        // armor_set.<namespace>.<path>.<piece>
+        // Example: armor_set.myarmors.armarouge.helmet
+        String key = "armor_set." + setId.getNamespace() + "." + setId.getPath() + "." + piece;
+        return Component.translatable(key);
+    }
+
 
     public static String pieceSuffixFor(Type type) {
         return switch (type) {
@@ -98,6 +135,7 @@ public class DatapackArmorItem extends ArmorItem implements GeoItem {
                     this.renderer = new DatapackArmorRenderer();
 
                 this.renderer.setCurrentStack(itemStack);
+
 
                 return this.renderer;
             }

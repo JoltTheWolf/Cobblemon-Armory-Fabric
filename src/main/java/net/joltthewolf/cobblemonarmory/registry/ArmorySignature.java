@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: LicenseRef-Cobblemon-Armory
  */
 
-package net.joltthewolf.cobblemonarmory.util;
+package net.joltthewolf.cobblemonarmory.registry;
 
 public final class ArmorySignature {
     private ArmorySignature() {}
 
-    public static final String SIGNATURE = "JTWCA";
+    public static final String SIGNATURE = "test";
 }

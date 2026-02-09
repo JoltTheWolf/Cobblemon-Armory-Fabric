@@ -17,7 +17,7 @@ public class DatapackArmorRenderer extends GeoArmorRenderer<DatapackArmorItem> {
 
     public DatapackArmorRenderer() {
         super(new DatapackArmorModel());
-        this.model = (DatapackArmorModel) this.getGeoModel(); // safe cast, we just provided it
+        this.model = (DatapackArmorModel) this.getGeoModel();
     }
 
     public void setCurrentStack(ItemStack stack) {
