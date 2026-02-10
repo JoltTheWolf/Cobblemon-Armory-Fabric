@@ -3,15 +3,17 @@
 	"id": "cobblemonarmory",
 	"version": "${version}",
 	"name": "CobblemonArmory",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Cobblemon: Armory is an add-on for the Cobblemon mod that lets you craft armor and weapons based on your favorite Cobblemon.",
 	"authors": [
-		"Me!"
+		"JoltTheWolf"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"curseforge": "https://www.curseforge.com/minecraft/mc-mods/cobblemon-armory",
+        "modrinth": "https://modrinth.com/mod/cobblemon-armory",
+		"sources": "https://github.com/JoltTheWolf/Cobblemon-Armory",
+        "discord": "https://discord.gg/Wph4w8vEkw"
 	},
-	"license": "CC0-1.0",
+	"license": "Copyright (c) 2026 JoltTheWolf, SPDX-License-Identifier: LicenseRef-Cobblemon-Armory",
 	"icon": "assets/cobblemonarmory/icon.png",
 	"environment": "*",
 	"entrypoints": {

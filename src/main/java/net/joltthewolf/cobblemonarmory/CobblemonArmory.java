@@ -7,7 +7,7 @@
 package net.joltthewolf.cobblemonarmory;
 
 import net.fabricmc.api.ModInitializer;
-import net.joltthewolf.cobblemonarmory.drops.ArmoryCobblemonDropHook;
+import net.joltthewolf.cobblemonarmory.drops.*;
 import net.joltthewolf.cobblemonarmory.recipe.ArmoryRecipeRegistry;
 import net.joltthewolf.cobblemonarmory.registry.*;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -24,7 +24,9 @@ public class CobblemonArmory implements ModInitializer {
     @Override
 	public void onInitialize() {
         verifySignature();
-        ArmoryCobblemonDropHook.init();
+        ArmoryDrops.init();
+        ArmoryDropHooks.register();
+        ArmoryDropsReload.register();
         ArmoryRecipeRegistry.init();
         ItemRegistry.init();
         ArmorRegistry.init();
