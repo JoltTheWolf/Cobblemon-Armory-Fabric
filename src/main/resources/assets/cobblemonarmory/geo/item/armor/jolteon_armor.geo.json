@@ -1,5 +1,4 @@
 {
-  "armory_license": "Copyright (c) 2026 JoltTheWolf - LicenseRef-Cobblemon-Armory",
 	"format_version": "1.12.0",
 	"minecraft:geometry": [
 		{
@@ -21,12 +20,12 @@
 					"parent": "bipedHead",
 					"pivot": [0, 24, 0],
 					"cubes": [
-						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [0, 0]},
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "inflate": 0.55, "uv": [0, 0]},
 						{"origin": [-2, 27.225, -6.5], "size": [4, 2, 2], "uv": [0, 16]},
 						{"origin": [-1.475, 26.225, -6.25], "size": [3, 1, 2], "uv": [12, 16]},
 						{"origin": [-0.5, 28.225, -6.55], "size": [1, 1, 0], "uv": [12, 19]},
-						{"origin": [-4.525, 29.275, -4.525], "size": [1, 2, 3], "uv": [24, 0], "mirror": true},
-						{"origin": [3.525, 29.275, -4.525], "size": [1, 2, 3], "uv": [24, 0]},
+						{"origin": [-4.575, 29.275, -4.575], "size": [1, 2, 3], "uv": [24, 0], "mirror": true},
+						{"origin": [3.575, 29.275, -4.6], "size": [1, 2, 3], "uv": [24, 0]},
 						{"origin": [-4, 33.3, -0.325], "size": [8, 0, 6], "inflate": 0.01, "pivot": [0, 33.05, 2.175], "rotation": [20, 0, 0], "uv": [4, 36]}
 					]
 				},
@@ -108,7 +107,7 @@
 					"parent": "bipedLeftLeg",
 					"pivot": [2, 12, 0],
 					"cubes": [
-						{"origin": [0, 4, -2], "size": [4, 8, 4], "inflate": 0.2, "uv": [32, 0]}
+						{"origin": [0, 4, -2], "size": [4, 8, 4], "inflate": 0.255, "uv": [32, 0]}
 					]
 				},
 				{
@@ -129,7 +128,7 @@
 					"parent": "bipedRightLeg",
 					"pivot": [-2, 12, 0],
 					"cubes": [
-						{"origin": [-4, 4, -2], "size": [4, 8, 4], "inflate": 0.2, "uv": [48, 0]}
+						{"origin": [-4, 4, -2], "size": [4, 8, 4], "inflate": 0.255, "uv": [48, 0]}
 					]
 				},
 				{

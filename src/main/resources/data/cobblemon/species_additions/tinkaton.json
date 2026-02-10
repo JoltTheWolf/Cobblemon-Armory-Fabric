@@ -6,11 +6,11 @@
    "entries": [
      {
         "item": "cobblemonarmory:tinkaton_hammer_piece",
-        "percentage": 18.0
+        "percentage": 25.0
       },
       {
         "item": "cobblemonarmory:tinkaton_handle_piece",
-        "percentage": 18.0
+        "percentage": 25.0
       }
    ]
  }

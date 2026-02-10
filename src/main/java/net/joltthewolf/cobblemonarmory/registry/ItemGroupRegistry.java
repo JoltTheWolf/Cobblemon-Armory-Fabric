@@ -31,6 +31,27 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.TINKATON_HAMMER_PIECE);
                         output.accept(ItemRegistry.TINKATON_HANDLE_PIECE);
                         output.accept(ItemRegistry.RAYQUAZA_SCALE);
+                        output.accept(ItemRegistry.BLASTOISE_SHELL);
+                        output.accept(ItemRegistry.BLAZIKEN_FEATHERS);
+                        output.accept(ItemRegistry.CINDERACE_FUR);
+                        output.accept(ItemRegistry.DECIDUEYE_FEATHERS);
+                        output.accept(ItemRegistry.DELPHOX_FUR);
+                        output.accept(ItemRegistry.EMBOAR_SKIN);
+                        output.accept(ItemRegistry.EMPOLEON_HORNS);
+                        output.accept(ItemRegistry.FERALIGATR_SCALE);
+                        output.accept(ItemRegistry.INCINEROAR_FUR);
+                        output.accept(ItemRegistry.INFERNAPE_PLATING);
+                        output.accept(ItemRegistry.GRENINJA_SKIN);
+                        output.accept(ItemRegistry.INTELEON_SHED);
+                        output.accept(ItemRegistry.MEGANIUM_PETALS);
+                        output.accept(ItemRegistry.SAMUROTT_PLATING);
+                        output.accept(ItemRegistry.SCEPTILE_LEAVES);
+                        output.accept(ItemRegistry.SERPERIOR_TAIL);
+                        output.accept(ItemRegistry.SWAMPERT_SKIN);
+                        output.accept(ItemRegistry.TORTERRA_SHELL);
+                        output.accept(ItemRegistry.TYPHLOSION_FUR);
+                        output.accept(ItemRegistry.VENUSAUR_FLOWER);
+                        output.accept(ItemRegistry.METAGROSS_PLATE);
 
                         //Weapons
                         output.accept(ItemRegistry.TINKATON_HAMMER);
@@ -39,6 +60,7 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.SIRFETCHD_SWORD);
                         output.accept(ItemRegistry.BASTIODON_SHIELD);
                         output.accept(ItemRegistry.CERULEDGE_SWORD);
+                        output.accept(ItemRegistry.ZACIAN_SWORD);
 
                         //Trainer Hats
                         output.accept(ItemRegistry.REDS_HAT);
@@ -193,6 +215,16 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.SHINY_RAYQUAZA_CHESTPLATE);
                         output.accept(ItemRegistry.SHINY_RAYQUAZA_LEGGINGS);
                         output.accept(ItemRegistry.SHINY_RAYQUAZA_BOOTS);
+
+                        output.accept(ItemRegistry.METAGROSS_HELMET);
+                        output.accept(ItemRegistry.METAGROSS_CHESTPLATE);
+                        output.accept(ItemRegistry.METAGROSS_LEGGINGS);
+                        output.accept(ItemRegistry.METAGROSS_BOOTS);
+
+                        output.accept(ItemRegistry.SHINY_METAGROSS_HELMET);
+                        output.accept(ItemRegistry.SHINY_METAGROSS_CHESTPLATE);
+                        output.accept(ItemRegistry.SHINY_METAGROSS_LEGGINGS);
+                        output.accept(ItemRegistry.SHINY_METAGROSS_BOOTS);
 
                         output.accept(ItemRegistry.GALARIAN_WEEZING_HAT);
 

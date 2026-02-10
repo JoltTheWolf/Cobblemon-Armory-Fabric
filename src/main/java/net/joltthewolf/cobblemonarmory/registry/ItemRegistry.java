@@ -44,6 +44,27 @@ public final class ItemRegistry {
     public static final Item TINKATON_HAMMER_PIECE = register("tinkaton_hammer_piece", new Item(new Item.Properties().stacksTo(64)));
     public static final Item TINKATON_HANDLE_PIECE = register("tinkaton_handle_piece", new Item(new Item.Properties().stacksTo(64)));
     public static final Item BASTIODON_SKULL = register("bastiodon_skull", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item BLASTOISE_SHELL = register("blastoise_shell", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item BLAZIKEN_FEATHERS = register("blaziken_feathers", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item CINDERACE_FUR = register("cinderace_fur", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item DECIDUEYE_FEATHERS = register("decidueye_feathers", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item DELPHOX_FUR = register("delphox_fur", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item EMBOAR_SKIN = register("emboar_skin", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item EMPOLEON_HORNS = register("empoleon_horns", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item FERALIGATR_SCALE = register("feraligatr_scale", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item INCINEROAR_FUR = register("incineroar_fur", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item INFERNAPE_PLATING = register("infernape_plating", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item GRENINJA_SKIN = register("greninja_skin", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item INTELEON_SHED = register("inteleon_shed", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item MEGANIUM_PETALS = register("meganium_petals", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item SAMUROTT_PLATING = register("samurott_plating", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item SCEPTILE_LEAVES = register("sceptile_leaves", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item SERPERIOR_TAIL = register("serperior_tail", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item SWAMPERT_SKIN = register("swampert_skin", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item TORTERRA_SHELL = register("torterra_shell", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item TYPHLOSION_FUR = register("typhlosion_fur", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item VENUSAUR_FLOWER = register("venusaur_flower", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item METAGROSS_PLATE = register("metagross_plate", new Item(new Item.Properties().stacksTo(64)));
 
     //WEAPONS
     public static final Item TINKATON_HAMMER = registerItem("tinkaton_hammer", new TinkatonHammerItem(new Item.Properties().stacksTo(1)));
@@ -52,6 +73,7 @@ public final class ItemRegistry {
     public static final Item SIRFETCHD_SWORD = registerItem("sirfetchd_sword", new SirfetchdSwordItem(new Item.Properties().stacksTo(1)));
     public static final Item BASTIODON_SHIELD = registerItem("bastiodon_shield", new BastiodonShieldItem(new Item.Properties().stacksTo(1)));
     public static final Item CERULEDGE_SWORD = registerItem("ceruledge_sword", new CeruledgeSwordItem(new Item.Properties().stacksTo(1)));
+    public static final Item ZACIAN_SWORD = registerItem("zacian_sword", new ZacianSwordItem(new Item.Properties().stacksTo(1)));
 
     //TRAINER HATS
     public static final Item REDS_HAT = registerItem("reds_hat", new RedsHatArmorItem(REDS_HAT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonHatProps(ArmorItem.Type.HELMET)));
@@ -207,6 +229,16 @@ public final class ItemRegistry {
     public static final Item SHINY_RAYQUAZA_CHESTPLATE = registerItem("shiny_rayquaza_armor_chestplate", new ShinyRayquazaArmorItem(SHINY_RAYQUAZA_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
     public static final Item SHINY_RAYQUAZA_LEGGINGS = registerItem("shiny_rayquaza_armor_leggings", new ShinyRayquazaArmorItem(SHINY_RAYQUAZA_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
     public static final Item SHINY_RAYQUAZA_BOOTS = registerItem("shiny_rayquaza_armor_boots", new ShinyRayquazaArmorItem(SHINY_RAYQUAZA_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item METAGROSS_HELMET = registerItem("metagross_armor_helmet", new MetagrossArmorItem(METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item METAGROSS_CHESTPLATE = registerItem("metagross_armor_chestplate", new MetagrossArmorItem(METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item METAGROSS_LEGGINGS = registerItem("metagross_armor_leggings", new MetagrossArmorItem(METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item METAGROSS_BOOTS = registerItem("metagross_armor_boots", new MetagrossArmorItem(METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item SHINY_METAGROSS_HELMET = registerItem("shiny_metagross_armor_helmet", new ShinyMetagrossArmorItem(SHINY_METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item SHINY_METAGROSS_CHESTPLATE = registerItem("shiny_metagross_armor_chestplate", new ShinyMetagrossArmorItem(SHINY_METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item SHINY_METAGROSS_LEGGINGS = registerItem("shiny_metagross_armor_leggings", new ShinyMetagrossArmorItem(SHINY_METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item SHINY_METAGROSS_BOOTS = registerItem("shiny_metagross_armor_boots", new ShinyMetagrossArmorItem(SHINY_METAGROSS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
 
     public static final Item GALARIAN_WEEZING_HAT = registerItem("galarian_weezing_hat", new GalarianWeezingHatArmorItem(GALARIAN_WEEZING_HAT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
 

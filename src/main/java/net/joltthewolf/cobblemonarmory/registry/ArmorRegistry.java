@@ -39,6 +39,7 @@ public final class ArmorRegistry {
     public static final Holder<ArmorMaterial> HAXORUS_ARMOR_MATERIAL = reg("haxorus");
     public static final Holder<ArmorMaterial> JOLTEON_ARMOR_MATERIAL = reg("jolteon");
     public static final Holder<ArmorMaterial> LEAFEON_ARMOR_MATERIAL = reg("leafeon");
+    public static final Holder<ArmorMaterial> METAGROSS_ARMOR_MATERIAL = reg("metagross");
     public static final Holder<ArmorMaterial> RAYQUAZA_ARMOR_MATERIAL = reg("rayquaza");
     public static final Holder<ArmorMaterial> SHINY_EEVEE_ARMOR_MATERIAL = reg("shiny_eevee");
     public static final Holder<ArmorMaterial> SHINY_ESPEON_ARMOR_MATERIAL = reg("shiny_espeon");
@@ -47,6 +48,7 @@ public final class ArmorRegistry {
     public static final Holder<ArmorMaterial> SHINY_HAXORUS_ARMOR_MATERIAL = reg("shiny_haxorus");
     public static final Holder<ArmorMaterial> SHINY_JOLTEON_ARMOR_MATERIAL = reg("shiny_jolteon");
     public static final Holder<ArmorMaterial> SHINY_LEAFEON_ARMOR_MATERIAL = reg("shiny_leafeon");
+    public static final Holder<ArmorMaterial> SHINY_METAGROSS_ARMOR_MATERIAL = reg("shiny_metagross");
     public static final Holder<ArmorMaterial> SHINY_RAYQUAZA_ARMOR_MATERIAL = reg("shiny_rayquaza");
     public static final Holder<ArmorMaterial> SHINY_SYLVEON_ARMOR_MATERIAL = reg("shiny_sylveon");
     public static final Holder<ArmorMaterial> SHINY_UMBREON_ARMOR_MATERIAL = reg("shiny_umbreon");

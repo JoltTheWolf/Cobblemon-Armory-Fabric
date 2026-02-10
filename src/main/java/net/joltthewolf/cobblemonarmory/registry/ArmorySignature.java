@@ -9,5 +9,5 @@ package net.joltthewolf.cobblemonarmory.registry;
 public final class ArmorySignature {
     private ArmorySignature() {}
 
-    public static final String SIGNATURE = "test";
+    public static final String SIGNATURE = "JTWCA";
 }

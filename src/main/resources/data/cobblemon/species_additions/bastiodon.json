@@ -5,14 +5,7 @@
     "entries": [
       {
         "item": "cobblemonarmory:bastiodon_skull",
-        "quantityRange": "1-1",
-        "percentage": 100,
-        "conditions": [
-          {
-            "condition": "cobblemon:item_interact",
-            "item": "cobblemonarmory:cobblemon_smithing_upgrade"
-          }
-        ]
+        "quantityRange": "1-1"
       }
     ]
   }

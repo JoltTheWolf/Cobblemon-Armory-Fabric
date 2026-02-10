@@ -1,5 +1,4 @@
 {
-  "armory_license": "Copyright (c) 2026 JoltTheWolf - LicenseRef-Cobblemon-Armory",
 	"format_version": "1.12.0",
 	"minecraft:geometry": [
 		{
@@ -21,8 +20,8 @@
 					"parent": "bipedHead",
 					"pivot": [0, 24, 0],
 					"cubes": [
-						{"origin": [-4, 30.04633, -3.42258], "size": [8, 3, 8], "inflate": 0.4, "pivot": [0, 32.64907, 0.56747], "rotation": [-15, 0, 0], "uv": [0, 0]},
-						{"origin": [-3.5, 33.2518, -2.94247], "size": [7, 1, 7], "pivot": [0, 32.64907, 0.56747], "rotation": [-15, 0, 0], "uv": [4, 21]}
+						{"origin": [-4, 29.92133, -3.04758], "size": [8, 3, 8], "inflate": 0.55, "pivot": [0, 32.52407, 0.94247], "rotation": [-15, 0, 0], "uv": [0, 0]},
+						{"origin": [-3.5, 33.1268, -2.56747], "size": [7, 1, 7], "inflate": 0.55, "pivot": [0, 32.52407, 0.94247], "rotation": [-15, 0, 0], "uv": [4, 21]}
 					]
 				},
 				{

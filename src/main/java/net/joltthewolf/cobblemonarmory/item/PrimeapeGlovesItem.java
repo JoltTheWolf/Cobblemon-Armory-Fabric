@@ -38,10 +38,10 @@ public class PrimeapeGlovesItem extends SwordItem implements GeoItem {
 
     private static final ItemAttributeModifiers DEFAULTS = ItemAttributeModifiers.builder()
             .add(Attributes.ATTACK_DAMAGE,
-                    new AttributeModifier(ATTACK_DAMAGE_ID, 4.0, AttributeModifier.Operation.ADD_VALUE),
+                    new AttributeModifier(ATTACK_DAMAGE_ID, 3.0, AttributeModifier.Operation.ADD_VALUE),
                     EquipmentSlotGroup.MAINHAND)
             .add(Attributes.ATTACK_SPEED,
-                    new AttributeModifier(ATTACK_SPEED_ID, 3.5, AttributeModifier.Operation.ADD_VALUE),
+                    new AttributeModifier(ATTACK_SPEED_ID, 2.5, AttributeModifier.Operation.ADD_VALUE),
                     EquipmentSlotGroup.MAINHAND)
             .build();
 
