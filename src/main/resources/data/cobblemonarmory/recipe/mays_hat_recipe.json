@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:blaziken_feathers"
+    }
+  },
+  "pattern": [
+    "WRW",
+    "RIR",
+    "R R"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:mays_hat"
+  }
+}

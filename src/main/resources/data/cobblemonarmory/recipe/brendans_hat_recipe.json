@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:sceptile_leaves"
+    }
+  },
+  "pattern": [
+    "WW",
+    "RIW",
+    "BBW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:brendans_hat"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:typhlosion_fur"
+    }
+  },
+  "pattern": [
+    "BY",
+    "BIB",
+    "BYB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:ethans_hat"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:red_wool"
+    },
+    "R": {
+      "item": "minecraft:pink_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:meganium_petals"
+    }
+  },
+  "pattern": [
+    "WW",
+    "RIP",
+    "WRW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:lyras_hat"
+  }
+}

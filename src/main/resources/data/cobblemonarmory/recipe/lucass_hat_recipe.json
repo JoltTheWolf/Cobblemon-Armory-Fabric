@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:infernape_plating"
+    }
+  },
+  "pattern": [
+    "RR",
+    "RIB",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:lucass_hat"
+  }
+}

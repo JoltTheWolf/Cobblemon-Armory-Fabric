@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:red_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:venusaur_flower"
+    }
+  },
+  "pattern": [
+    "WW",
+    "RIR",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:leafs_hat"
+  }
+}

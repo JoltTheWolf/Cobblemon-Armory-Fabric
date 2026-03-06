@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:greninja_skin"
+    }
+  },
+  "pattern": [
+    "RR",
+    "BIB",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:calems_hat"
+  }
+}

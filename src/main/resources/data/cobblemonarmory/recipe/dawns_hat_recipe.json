@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    "I": {
+      "item": "cobblemonarmory:empoleon_horns"
+    }
+  },
+  "pattern": [
+    "WW",
+    "WIW",
+    "WPW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:dawns_hat"
+  }
+}

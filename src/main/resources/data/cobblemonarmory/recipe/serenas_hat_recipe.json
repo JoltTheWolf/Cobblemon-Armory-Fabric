@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    
+    "I": {
+      "item": "cobblemonarmory:delphox_fur"
+    }
+  },
+  "pattern": [
+    "RR",
+    "WIB",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:serenas_hat"
+  }
+}

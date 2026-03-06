@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    },
+    
+    "I": {
+      "item": "cobblemonarmory:serperior_tail"
+    }
+  },
+  "pattern": [
+    "WW",
+    "PIP",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "cobblemonarmory:rosas_hat"
+  }
+}
