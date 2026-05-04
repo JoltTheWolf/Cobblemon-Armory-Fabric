@@ -1,0 +1,87 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "metagross_hammer",
+					"pivot": [-0.15, 14.25, 4.7],
+					"rotation": [-90, 0, -90],
+					"cubes": [
+						{"origin": [-11.15, 8.5, 3.75], "size": [25, 2, 2], "uv": [0, 16]},
+						{"origin": [7.75, 8, 3.25], "size": [7, 3, 3], "uv": [16, 50]},
+						{"origin": [-14.25, 8, 3.25], "size": [4, 3, 3], "uv": [50, 51]}
+					]
+				},
+				{
+					"name": "metagross_hammer2",
+					"parent": "metagross_hammer",
+					"pivot": [12.8, 14.8, 4.75],
+					"rotation": [0, 0, -2.5],
+					"cubes": [
+						{"origin": [12.61273, 19.9935, 2.25], "size": [2, 5, 5], "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, 1.5], "uv": [36, 51]},
+						{"origin": [12.61082, 15.40626, 2.25], "size": [4, 5, 5], "inflate": 0.01, "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, 1.5], "uv": [16, 40]},
+						{"origin": [13.74635, 4.34717, 2.75], "size": [6, 8, 4], "inflate": 0.01, "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, 6.5], "uv": [36, 27]},
+						{"origin": [18.79551, 8.46947, 2.25], "size": [5, 7, 5], "inflate": 0.02, "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, -31], "uv": [36, 39]},
+						{"origin": [9.6911, -4.35077, 0.25], "size": [9, 11, 9], "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, 4], "uv": [0, 20]},
+						{"origin": [15.6852, 6.9871, 2.75], "size": [10, 3, 4], "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, -76], "uv": [36, 20]},
+						{"origin": [18.07425, -4.63021, 2.25], "size": [3, 10, 5], "pivot": [15.97437, 4.5642, 4.6], "rotation": [0, 0, 6.5], "uv": [0, 40]}
+					]
+				},
+				{
+					"name": "metagross_hammer3",
+					"parent": "metagross_hammer2",
+					"pivot": [19.25, -6.57398, 5.25],
+					"rotation": [0, 0, 2.5],
+					"cubes": [
+						{"origin": [8.09305, -7.30548, -1.75], "size": [13, 3, 13], "inflate": 0.01, "pivot": [15.49165, 4.41072, 4.6], "rotation": [0, 0, 4], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "metagross_hammer4",
+					"parent": "metagross_hammer3",
+					"pivot": [18.75, -9.5, 4.75],
+					"cubes": [
+						{"origin": [19.09305, -10.75548, 2.75], "size": [0, 4, 4], "pivot": [15.49165, 4.41072, 4.6], "rotation": [0, 0, 4], "uv": [52, 0]}
+					]
+				},
+				{
+					"name": "metagross_hammer5",
+					"parent": "metagross_hammer3",
+					"pivot": [12.25, -9.5, 0.35],
+					"rotation": [0, 27.5, 0]
+				},
+				{
+					"name": "metagross_hammer6",
+					"parent": "metagross_hammer5",
+					"pivot": [12.25, -9.5, 0.35],
+					"cubes": [
+						{"origin": [10.11078, -10.75548, 0.27753], "size": [4, 4, 0], "pivot": [13.16295, 4.41072, 5.61662], "rotation": [-1.84581, 0.05716, 3.54743], "uv": [52, 8]}
+					]
+				},
+				{
+					"name": "metagross_hammer7",
+					"parent": "metagross_hammer3",
+					"pivot": [12.25, -9.5, 8.85],
+					"rotation": [0, -27.5, 0]
+				},
+				{
+					"name": "metagross_hammer8",
+					"parent": "metagross_hammer7",
+					"pivot": [12.25, -9.5, 8.85],
+					"cubes": [
+						{"origin": [10.11078, -10.75548, 8.92247], "size": [4, 4, 0], "pivot": [13.16295, 4.41072, 3.58338], "rotation": [1.84581, -0.05716, 3.54743], "uv": [52, 12]}
+					]
+				}
+			]
+		}
+	]
+}

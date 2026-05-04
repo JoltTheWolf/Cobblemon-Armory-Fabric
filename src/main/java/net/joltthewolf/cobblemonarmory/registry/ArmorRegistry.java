@@ -30,8 +30,14 @@ public final class ArmorRegistry {
     // === All materials share the same stats===
     public static final Holder<ArmorMaterial> CHARIZARD_ARMOR_MATERIAL = reg("charizard");
     public static final Holder<ArmorMaterial> SHINY_CHARIZARD_ARMOR_MATERIAL = reg("shiny_charizard");
+    public static final Holder<ArmorMaterial> TORTERRA_ARMOR_MATERIAL = reg("torterra");
+    public static final Holder<ArmorMaterial> SHINY_TORTERRA_ARMOR_MATERIAL = reg("shiny_torterra");
+    public static final Holder<ArmorMaterial> BLAZIKEN_ARMOR_MATERIAL = reg("blaziken");
+    public static final Holder<ArmorMaterial> SHINY_BLAZIKEN_ARMOR_MATERIAL = reg("shiny_blaziken");
     public static final Holder<ArmorMaterial> ARMAROUGE_ARMOR_MATERIAL = reg("armarouge");
     public static final Holder<ArmorMaterial> CERULEDGE_ARMOR_MATERIAL = reg("ceruledge");
+    public static final Holder<ArmorMaterial> CORVIKNIGHT_ARMOR_MATERIAL = reg("corviknight");
+    public static final Holder<ArmorMaterial> SHINY_CORVIKNIGHT_ARMOR_MATERIAL = reg("shiny_corviknight");
     public static final Holder<ArmorMaterial> EEVEE_ARMOR_MATERIAL = reg("eevee");
     public static final Holder<ArmorMaterial> ESPEON_ARMOR_MATERIAL = reg("espeon");
     public static final Holder<ArmorMaterial> FLAREON_ARMOR_MATERIAL = reg("flareon");

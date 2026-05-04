@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:braixen",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:delphox_fur",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

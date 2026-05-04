@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:delphox",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:delphox_fur",
+       "percentage": 75.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

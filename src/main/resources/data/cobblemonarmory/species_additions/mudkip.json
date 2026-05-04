@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:mudkip",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:swampert_skin",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

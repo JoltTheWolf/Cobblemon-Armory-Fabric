@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:empoleon",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:empoleon_horns",
+       "percentage": 75.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

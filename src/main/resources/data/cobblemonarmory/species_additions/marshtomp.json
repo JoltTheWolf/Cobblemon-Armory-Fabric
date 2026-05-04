@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:marshtomp",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:swampert_skin",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

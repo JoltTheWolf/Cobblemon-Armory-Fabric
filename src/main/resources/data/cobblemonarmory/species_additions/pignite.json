@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:pignite",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:emboar_skin",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:totodile",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:feraligatr_scale",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

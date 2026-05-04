@@ -38,6 +38,7 @@
   "item.cobblemonarmory.typhlosion_fur": "Typhlosion Fur",
   "item.cobblemonarmory.venusaur_flower": "Venusaur Flower",
   "item.cobblemonarmory.metagross_plate": "Metagross Plate",
+  "item.cobblemonarmory.corviknight_feathers": "Corviknight Feathers",
 
   "item.cobblemonarmory.bastiodon_shield": "Bastiodon Shield",
   "item.cobblemonarmory.tinkaton_hammer": "Tinkaton Hammer",
@@ -47,6 +48,7 @@
   "item.cobblemonarmory.sirfetchd_sword": "Sirfetch\u0027d Leek Sword",
   "item.cobblemonarmory.ceruledge_sword": "Ceruledge Sword",
   "item.cobblemonarmory.zacian_sword": "Zacian Sword",
+  "item.cobblemonarmory.metagross_hammer": "Metagross Hammer",
 
   "item.cobblemonarmory.reds_hat": "Red's Hat",
   "item.cobblemonarmory.ethans_hat": "Ethan's Hat",
@@ -77,6 +79,36 @@
   "item.cobblemonarmory.shiny_charizard_armor_chestplate": "Shiny Charizard Chestplate",
   "item.cobblemonarmory.shiny_charizard_armor_leggings": "Shiny Charizard Leggings",
   "item.cobblemonarmory.shiny_charizard_armor_boots": "Shiny Charizard Boots",
+
+  "item.cobblemonarmory.torterra_armor_helmet": "Torterra Helmet",
+  "item.cobblemonarmory.torterra_armor_chestplate": "Torterra Chestplate",
+  "item.cobblemonarmory.torterra_armor_leggings": "Torterra Leggings",
+  "item.cobblemonarmory.torterra_armor_boots": "Torterra Boots",
+
+  "item.cobblemonarmory.shiny_torterra_armor_helmet": "Shiny Torterra Helmet",
+  "item.cobblemonarmory.shiny_torterra_armor_chestplate": "Shiny Torterra Chestplate",
+  "item.cobblemonarmory.shiny_torterra_armor_leggings": "Shiny Torterra Leggings",
+  "item.cobblemonarmory.shiny_torterra_armor_boots": "Shiny Torterra Boots",
+
+  "item.cobblemonarmory.blaziken_armor_helmet": "Blaziken Helmet",
+  "item.cobblemonarmory.blaziken_armor_chestplate": "Blaziken Chestplate",
+  "item.cobblemonarmory.blaziken_armor_leggings": "Blaziken Leggings",
+  "item.cobblemonarmory.blaziken_armor_boots": "Blaziken Boots",
+
+  "item.cobblemonarmory.shiny_blaziken_armor_helmet": "Shiny Blaziken Helmet",
+  "item.cobblemonarmory.shiny_blaziken_armor_chestplate": "Shiny Blaziken Chestplate",
+  "item.cobblemonarmory.shiny_blaziken_armor_leggings": "Shiny Blaziken Leggings",
+  "item.cobblemonarmory.shiny_blaziken_armor_boots": "Shiny Blaziken Boots",
+
+  "item.cobblemonarmory.corviknight_armor_helmet": "Corviknight Helmet",
+  "item.cobblemonarmory.corviknight_armor_chestplate": "Corviknight Chestplate",
+  "item.cobblemonarmory.corviknight_armor_leggings": "Corviknight Leggings",
+  "item.cobblemonarmory.corviknight_armor_boots": "Corviknight Boots",
+
+  "item.cobblemonarmory.shiny_corviknight_armor_helmet": "Shiny Corviknight Helmet",
+  "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "Shiny Corviknight Chestplate",
+  "item.cobblemonarmory.shiny_corviknight_armor_leggings": "Shiny Corviknight Leggings",
+  "item.cobblemonarmory.shiny_corviknight_armor_boots": "Shiny Corviknight Boots",
 
   "item.cobblemonarmory.squirtle_glasses": "Squirtle Glasses",
 

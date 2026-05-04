@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:meganium",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:meganium_petals",
+       "percentage": 75.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

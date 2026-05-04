@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:prinplup",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:empoleon_horns",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

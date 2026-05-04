@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:grovyle",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:sceptile_leaves",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

@@ -52,6 +52,7 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.TYPHLOSION_FUR);
                         output.accept(ItemRegistry.VENUSAUR_FLOWER);
                         output.accept(ItemRegistry.METAGROSS_PLATE);
+                        output.accept(ItemRegistry.CORVIKNIGHT_FEATHERS);
 
                         //Weapons
                         output.accept(ItemRegistry.TINKATON_HAMMER);
@@ -61,6 +62,7 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.BASTIODON_SHIELD);
                         output.accept(ItemRegistry.CERULEDGE_SWORD);
                         output.accept(ItemRegistry.ZACIAN_SWORD);
+                        output.accept(ItemRegistry.METAGROSS_HAMMER);
 
                         //Trainer Hats
                         output.accept(ItemRegistry.REDS_HAT);
@@ -96,6 +98,26 @@ public final class ItemGroupRegistry {
 
                         output.accept(ItemRegistry.SQUIRTLE_GLASSES);
 
+                        output.accept(ItemRegistry.TORTERRA_HELMET);
+                        output.accept(ItemRegistry.TORTERRA_CHESTPLATE);
+                        output.accept(ItemRegistry.TORTERRA_LEGGINGS);
+                        output.accept(ItemRegistry.TORTERRA_BOOTS);
+
+                        output.accept(ItemRegistry.SHINY_TORTERRA_HELMET);
+                        output.accept(ItemRegistry.SHINY_TORTERRA_CHESTPLATE);
+                        output.accept(ItemRegistry.SHINY_TORTERRA_LEGGINGS);
+                        output.accept(ItemRegistry.SHINY_TORTERRA_BOOTS);
+
+                        output.accept(ItemRegistry.BLAZIKEN_HELMET);
+                        output.accept(ItemRegistry.BLAZIKEN_CHESTPLATE);
+                        output.accept(ItemRegistry.BLAZIKEN_LEGGINGS);
+                        output.accept(ItemRegistry.BLAZIKEN_BOOTS);
+
+                        output.accept(ItemRegistry.SHINY_BLAZIKEN_HELMET);
+                        output.accept(ItemRegistry.SHINY_BLAZIKEN_CHESTPLATE);
+                        output.accept(ItemRegistry.SHINY_BLAZIKEN_LEGGINGS);
+                        output.accept(ItemRegistry.SHINY_BLAZIKEN_BOOTS);
+
                         output.accept(ItemRegistry.ARMAROUGE_HELMET);
                         output.accept(ItemRegistry.ARMAROUGE_CHESTPLATE);
                         output.accept(ItemRegistry.ARMAROUGE_LEGGINGS);
@@ -115,6 +137,16 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.SHINY_HAXORUS_CHESTPLATE);
                         output.accept(ItemRegistry.SHINY_HAXORUS_LEGGINGS);
                         output.accept(ItemRegistry.SHINY_HAXORUS_BOOTS);
+
+                        output.accept(ItemRegistry.CORVIKNIGHT_HELMET);
+                        output.accept(ItemRegistry.CORVIKNIGHT_CHESTPLATE);
+                        output.accept(ItemRegistry.CORVIKNIGHT_LEGGINGS);
+                        output.accept(ItemRegistry.CORVIKNIGHT_BOOTS);
+
+                        output.accept(ItemRegistry.SHINY_CORVIKNIGHT_HELMET);
+                        output.accept(ItemRegistry.SHINY_CORVIKNIGHT_CHESTPLATE);
+                        output.accept(ItemRegistry.SHINY_CORVIKNIGHT_LEGGINGS);
+                        output.accept(ItemRegistry.SHINY_CORVIKNIGHT_BOOTS);
 
                         output.accept(ItemRegistry.EEVEE_HELMET);
                         output.accept(ItemRegistry.EEVEE_CHESTPLATE);

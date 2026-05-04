@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:chimchar",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:infernape_plating",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:drizzile",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:inteleon_shed",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

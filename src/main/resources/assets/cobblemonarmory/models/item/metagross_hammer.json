@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "builtin/entity",
+	"texture_size": [
+		64, 
+		64
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [
+				-0.25,
+				 -8,
+				  1.25
+			]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.25, -8, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, -9.75],
+			"translation": [2.5, -5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, -9.75],
+			"translation": [2.5, -5, 0]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"gui": {
+			"rotation": [0, -90, 0],
+			"translation": [-1, -7.85, 0],
+			"scale": [0.42, 0.42, 0.42]
+		},
+		"fixed": {
+			"rotation": [-180, 90, -180],
+			"translation": [0.75, -9.5, 0.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -90, 0],
+			"translation": [-0.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+  "textures": {
+    "particle": "cobblemonarmory:item/metagross_hammer"
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:litten",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:incineroar_fur",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

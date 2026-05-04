@@ -38,6 +38,7 @@
   "item.cobblemonarmory.typhlosion_fur": "Fourrure de Typhlosion",
   "item.cobblemonarmory.venusaur_flower": "Fleur de Florizarre",
   "item.cobblemonarmory.metagross_plate": "Plaque de Métalosse",
+  "item.cobblemonarmory.corviknight_feathers": "Plumes de Corvaillus",
 
   "item.cobblemonarmory.bastiodon_shield": "Bouclier de Bastiodon",
   "item.cobblemonarmory.tinkaton_hammer": "Marteau de Forgelina",
@@ -47,6 +48,7 @@
   "item.cobblemonarmory.sirfetchd_sword": "Épée Poireau de Palarticho",
   "item.cobblemonarmory.ceruledge_sword": "Épée de Malvalame",
   "item.cobblemonarmory.zacian_sword": "Épée de Zacian",
+  "item.cobblemonarmory.metagross_hammer": "Marteau de Métalosse",
 
   "item.cobblemonarmory.reds_hat": "Casquette de Red",
   "item.cobblemonarmory.ethans_hat": "Casquette de Ethan",
@@ -80,6 +82,26 @@
 
   "item.cobblemonarmory.squirtle_glasses": "Lunettes de Carapuce",
 
+  "item.cobblemonarmory.torterra_armor_helmet": "Casque de Torterra",
+  "item.cobblemonarmory.torterra_armor_chestplate": "Plastron de Torterra",
+  "item.cobblemonarmory.torterra_armor_leggings": "Jambières de Torterra",
+  "item.cobblemonarmory.torterra_armor_boots": "Bottes de Torterra",
+
+  "item.cobblemonarmory.shiny_torterra_armor_helmet": "Casque de Torterra Chromatique",
+  "item.cobblemonarmory.shiny_torterra_armor_chestplate": "Plastron de Torterra Chromatique",
+  "item.cobblemonarmory.shiny_torterra_armor_leggings": "Jambières de Torterra Chromatique",
+  "item.cobblemonarmory.shiny_torterra_armor_boots": "Bottes de Torterra Chromatique",
+
+  "item.cobblemonarmory.blaziken_armor_helmet": "Casque de Braségali",
+  "item.cobblemonarmory.blaziken_armor_chestplate": "Plastron de Braségali",
+  "item.cobblemonarmory.blaziken_armor_leggings": "Jambières de Braségali",
+  "item.cobblemonarmory.blaziken_armor_boots": "Bottes de Braségali",
+
+  "item.cobblemonarmory.shiny_blaziken_armor_helmet": "Casque de Braségali Chromatique",
+  "item.cobblemonarmory.shiny_blaziken_armor_chestplate": "Plastron de Braségali Chromatique",
+  "item.cobblemonarmory.shiny_blaziken_armor_leggings": "Jambières de Braségali Chromatique",
+  "item.cobblemonarmory.shiny_blaziken_armor_boots": "Bottes de Braségali Chromatique",
+
   "item.cobblemonarmory.ceruledge_armor_helmet": "Casque de Malvalame",
   "item.cobblemonarmory.ceruledge_armor_chestplate": "Plastron de Malvalame",
   "item.cobblemonarmory.ceruledge_armor_leggings": "Jambières de Malvalame",
@@ -99,6 +121,16 @@
   "item.cobblemonarmory.shiny_haxorus_armor_helmet": "Casque de Tranchodon Chromatique",
   "item.cobblemonarmory.shiny_haxorus_armor_chestplate": "Plastron de Tranchodon Chromatique",
   "item.cobblemonarmory.shiny_haxorus_armor_leggings": "Jambières de Tranchodon Chromatique",
+
+  "item.cobblemonarmory.corviknight_armor_helmet": "Casque de Corvaillus",
+  "item.cobblemonarmory.corviknight_armor_chestplate": "Plastron de Corvaillus",
+  "item.cobblemonarmory.corviknight_armor_leggings": "Jambières de Corvaillus",
+  "item.cobblemonarmory.corviknight_armor_boots": "Bottes de Corvaillus",
+
+  "item.cobblemonarmory.shiny_corviknight_armor_helmet": "Casque de Corvaillus Chromatique",
+  "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "Plastron de Corvaillus Chromatique",
+  "item.cobblemonarmory.shiny_corviknight_armor_leggings": "Jambières de Corvaillus Chromatique",
+  "item.cobblemonarmory.shiny_corviknight_armor_boots": "Bottes de Corvaillus Chromatique"
 
   "item.cobblemonarmory.eevee_armor_helmet": "Casque d’Évoli",
   "item.cobblemonarmory.eevee_armor_chestplate": "Plastron d’Évoli",

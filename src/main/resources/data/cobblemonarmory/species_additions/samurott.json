@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:samurott",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:samurott_plating",
+       "percentage": 75.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

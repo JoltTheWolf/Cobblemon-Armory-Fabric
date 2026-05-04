@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:sobble",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:inteleon_shed",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

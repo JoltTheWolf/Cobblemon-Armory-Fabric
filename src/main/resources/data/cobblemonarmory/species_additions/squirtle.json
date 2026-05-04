@@ -2,12 +2,17 @@
  "target": "cobblemon:squirtle",
 
  "drops": {
-   "amount": 1,
+   "amount": 2,
    "entries": [
      {
        "item": "cobblemonarmory:squirtle_glasses",
        "percentage": 30.0,
        "quantityRange": "1"
+     },
+     {
+       "item": "cobblemonarmory:blastoise_shell",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
      }
    ]
  }

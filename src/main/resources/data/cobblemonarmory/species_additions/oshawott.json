@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:oshawott",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:samurott_plating",
+       "percentage": 25.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

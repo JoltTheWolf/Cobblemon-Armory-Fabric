@@ -38,6 +38,7 @@
   "item.cobblemonarmory.typhlosion_fur": "Pelo de Typhlosion",
   "item.cobblemonarmory.venusaur_flower": "Flor de Venusaur",
   "item.cobblemonarmory.metagross_plate": "Placa de Metagross",
+  "item.cobblemonarmory.corviknight_feathers": "Penas de Corviknight",
 
   "item.cobblemonarmory.bastiodon_shield": "Escudo de Bastiodon",
   "item.cobblemonarmory.tinkaton_hammer": "Martelo de Tinkaton",
@@ -47,6 +48,7 @@
   "item.cobblemonarmory.sirfetchd_sword": "Espada de Alho-Poró de Sirfetch'd",
   "item.cobblemonarmory.ceruledge_sword": "Espada de Ceruledge",
   "item.cobblemonarmory.zacian_sword": "Espada de Zacian",
+  "item.cobblemonarmory.metagross_hammer": "Martelo de Metagross",
 
   "item.cobblemonarmory.reds_hat": "Boné do Red",
   "item.cobblemonarmory.ethans_hat": "Boné do Ethan",
@@ -80,6 +82,26 @@
 
   "item.cobblemonarmory.squirtle_glasses": "Óculos de Squirtle",
 
+  "item.cobblemonarmory.torterra_armor_helmet": "Capacete de Torterra",
+  "item.cobblemonarmory.torterra_armor_chestplate": "Peitoral de Torterra",
+  "item.cobblemonarmory.torterra_armor_leggings": "Calças de Torterra",
+  "item.cobblemonarmory.torterra_armor_boots": "Botas de Torterra",
+
+  "item.cobblemonarmory.shiny_torterra_armor_helmet": "Capacete Brilhante de Torterra",
+  "item.cobblemonarmory.shiny_torterra_armor_chestplate": "Peitoral Brilhante de Torterra",
+  "item.cobblemonarmory.shiny_torterra_armor_leggings": "Calças Brilhantes de Torterra",
+  "item.cobblemonarmory.shiny_torterra_armor_boots": "Botas Brilhantes de Torterra",
+
+  "item.cobblemonarmory.blaziken_armor_helmet": "Capacete de Blaziken",
+  "item.cobblemonarmory.blaziken_armor_chestplate": "Peitoral de Blaziken",
+  "item.cobblemonarmory.blaziken_armor_leggings": "Calças de Blaziken",
+  "item.cobblemonarmory.blaziken_armor_boots": "Botas de Blaziken",
+
+  "item.cobblemonarmory.shiny_blaziken_armor_helmet": "Capacete Brilhante de Blaziken",
+  "item.cobblemonarmory.shiny_blaziken_armor_chestplate": "Peitoral Brilhante de Blaziken",
+  "item.cobblemonarmory.shiny_blaziken_armor_leggings": "Calças Brilhantes de Blaziken",
+  "item.cobblemonarmory.shiny_blaziken_armor_boots": "Botas Brilhantes de Blaziken",
+
   "item.cobblemonarmory.ceruledge_armor_helmet": "Capacete de Ceruledge",
   "item.cobblemonarmory.ceruledge_armor_chestplate": "Peitoral de Ceruledge",
   "item.cobblemonarmory.ceruledge_armor_leggings": "Calças de Ceruledge",
@@ -99,6 +121,16 @@
   "item.cobblemonarmory.shiny_haxorus_armor_helmet": "Capacete Brilhante de Haxorus",
   "item.cobblemonarmory.shiny_haxorus_armor_chestplate": "Peitoral Brilhante de Haxorus",
   "item.cobblemonarmory.shiny_haxorus_armor_leggings": "Calças Brilhantes de Haxorus",
+
+  "item.cobblemonarmory.corviknight_armor_helmet": "Capacete de Corviknight",
+  "item.cobblemonarmory.corviknight_armor_chestplate": "Peitoral de Corviknight",
+  "item.cobblemonarmory.corviknight_armor_leggings": "Calças de Corviknight",
+  "item.cobblemonarmory.corviknight_armor_boots": "Botas de Corviknight",
+
+  "item.cobblemonarmory.shiny_corviknight_armor_helmet": "Capacete Brilhante de Corviknight",
+  "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "Peitoral Brilhante de Corviknight",
+  "item.cobblemonarmory.shiny_corviknight_armor_leggings": "Calças Brilhantes de Corviknight",
+  "item.cobblemonarmory.shiny_corviknight_armor_boots": "Botas Brilhantes de Corviknight",
 
   "item.cobblemonarmory.eevee_armor_helmet": "Capacete de Eevee",
   "item.cobblemonarmory.eevee_armor_chestplate": "Peitoral de Eevee",

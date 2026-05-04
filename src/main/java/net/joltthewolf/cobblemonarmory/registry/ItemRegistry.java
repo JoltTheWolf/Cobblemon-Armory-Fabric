@@ -65,6 +65,7 @@ public final class ItemRegistry {
     public static final Item TYPHLOSION_FUR = register("typhlosion_fur", new Item(new Item.Properties().stacksTo(64)));
     public static final Item VENUSAUR_FLOWER = register("venusaur_flower", new Item(new Item.Properties().stacksTo(64)));
     public static final Item METAGROSS_PLATE = register("metagross_plate", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item CORVIKNIGHT_FEATHERS = register("corviknight_feathers", new Item(new Item.Properties().stacksTo(64)));
 
     //WEAPONS
     public static final Item TINKATON_HAMMER = registerItem("tinkaton_hammer", new TinkatonHammerItem(new Item.Properties().stacksTo(1)));
@@ -74,6 +75,7 @@ public final class ItemRegistry {
     public static final Item BASTIODON_SHIELD = registerItem("bastiodon_shield", new BastiodonShieldItem(new Item.Properties().stacksTo(1)));
     public static final Item CERULEDGE_SWORD = registerItem("ceruledge_sword", new CeruledgeSwordItem(new Item.Properties().stacksTo(1)));
     public static final Item ZACIAN_SWORD = registerItem("zacian_sword", new ZacianSwordItem(new Item.Properties().stacksTo(1)));
+    public static final Item METAGROSS_HAMMER = registerItem("metagross_hammer", new MetagrossHammerItem(new Item.Properties().stacksTo(1)));
 
     //TRAINER HATS
     public static final Item REDS_HAT = registerItem("reds_hat", new RedsHatArmorItem(REDS_HAT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonHatProps(ArmorItem.Type.HELMET)));
@@ -109,6 +111,36 @@ public final class ItemRegistry {
     public static final Item SHINY_CHARIZARD_CHESTPLATE = registerItem("shiny_charizard_armor_chestplate", new ShinyCharizardArmorItem(SHINY_CHARIZARD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
     public static final Item SHINY_CHARIZARD_LEGGINGS = registerItem("shiny_charizard_armor_leggings", new ShinyCharizardArmorItem(SHINY_CHARIZARD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
     public static final Item SHINY_CHARIZARD_BOOTS = registerItem("shiny_charizard_armor_boots", new ShinyCharizardArmorItem(SHINY_CHARIZARD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item TORTERRA_HELMET = registerItem("torterra_armor_helmet", new TorterraArmorItem(TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item TORTERRA_CHESTPLATE = registerItem("torterra_armor_chestplate", new TorterraArmorItem(TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item TORTERRA_LEGGINGS = registerItem("torterra_armor_leggings", new TorterraArmorItem(TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item TORTERRA_BOOTS = registerItem("torterra_armor_boots", new TorterraArmorItem(TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item SHINY_TORTERRA_HELMET = registerItem("shiny_torterra_armor_helmet", new ShinyTorterraArmorItem(SHINY_TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item SHINY_TORTERRA_CHESTPLATE = registerItem("shiny_torterra_armor_chestplate", new ShinyTorterraArmorItem(SHINY_TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item SHINY_TORTERRA_LEGGINGS = registerItem("shiny_torterra_armor_leggings", new ShinyTorterraArmorItem(SHINY_TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item SHINY_TORTERRA_BOOTS = registerItem("shiny_torterra_armor_boots", new ShinyTorterraArmorItem(SHINY_TORTERRA_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item BLAZIKEN_HELMET = registerItem("blaziken_armor_helmet", new BlazikenArmorItem(BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item BLAZIKEN_CHESTPLATE = registerItem("blaziken_armor_chestplate", new BlazikenArmorItem(BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item BLAZIKEN_LEGGINGS = registerItem("blaziken_armor_leggings", new BlazikenArmorItem(BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item BLAZIKEN_BOOTS = registerItem("blaziken_armor_boots", new BlazikenArmorItem(BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item SHINY_BLAZIKEN_HELMET = registerItem("shiny_blaziken_armor_helmet", new ShinyBlazikenArmorItem(SHINY_BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item SHINY_BLAZIKEN_CHESTPLATE = registerItem("shiny_blaziken_armor_chestplate", new ShinyBlazikenArmorItem(SHINY_BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item SHINY_BLAZIKEN_LEGGINGS = registerItem("shiny_blaziken_armor_leggings", new ShinyBlazikenArmorItem(SHINY_BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item SHINY_BLAZIKEN_BOOTS = registerItem("shiny_blaziken_armor_boots", new ShinyBlazikenArmorItem(SHINY_BLAZIKEN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item CORVIKNIGHT_HELMET = registerItem("corviknight_armor_helmet", new CorviknightArmorItem(CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item CORVIKNIGHT_CHESTPLATE = registerItem("corviknight_armor_chestplate", new CorviknightArmorItem(CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item CORVIKNIGHT_LEGGINGS = registerItem("corviknight_armor_leggings", new CorviknightArmorItem(CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item CORVIKNIGHT_BOOTS = registerItem("corviknight_armor_boots", new CorviknightArmorItem(CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item SHINY_CORVIKNIGHT_HELMET = registerItem("shiny_corviknight_armor_helmet", new ShinyCorviknightArmorItem(SHINY_CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item SHINY_CORVIKNIGHT_CHESTPLATE = registerItem("shiny_corviknight_armor_chestplate", new ShinyCorviknightArmorItem(SHINY_CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+    public static final Item SHINY_CORVIKNIGHT_LEGGINGS = registerItem("shiny_corviknight_armor_leggings", new ShinyCorviknightArmorItem(SHINY_CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
+    public static final Item SHINY_CORVIKNIGHT_BOOTS = registerItem("shiny_corviknight_armor_boots", new ShinyCorviknightArmorItem(SHINY_CORVIKNIGHT_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
 
     public static final Item ARMAROUGE_HELMET = registerItem("armarouge_armor_helmet", new ArmarougeArmorItem(ARMAROUGE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
     public static final Item ARMAROUGE_CHESTPLATE = registerItem("armarouge_armor_chestplate", new ArmarougeArmorItem(ARMAROUGE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));

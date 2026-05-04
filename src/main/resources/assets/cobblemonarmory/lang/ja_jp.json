@@ -38,6 +38,9 @@
   "item.cobblemonarmory.typhlosion_fur": "バクフーンの毛皮",
   "item.cobblemonarmory.venusaur_flower": "フシギバナの花",
   "item.cobblemonarmory.metagross_plate": "メタグロスのプレート",
+  "item.cobblemonarmory.corviknight_feathers": "アーマーガアの羽",
+
+
 
   "item.cobblemonarmory.bastiodon_shield": "トリデプスの盾",
   "item.cobblemonarmory.tinkaton_hammer": "デカヌチャンのハンマー",
@@ -47,6 +50,7 @@
   "item.cobblemonarmory.sirfetchd_sword": "ネギガナイトのネギ剣",
   "item.cobblemonarmory.ceruledge_sword": "ソウブレイズの剣",
   "item.cobblemonarmory.zacian_sword": "ザシアンの剣",
+  "item.cobblemonarmory.metagross_hammer": "メタグロスのハンマー",
 
   "item.cobblemonarmory.reds_hat": "レッドの帽子",
   "item.cobblemonarmory.ethans_hat": "ヒビキの帽子",
@@ -80,6 +84,26 @@
 
   "item.cobblemonarmory.squirtle_glasses": "ゼニガメのメガネ",
 
+  "item.cobblemonarmory.blaziken_armor_helmet": "バシャーモヘルメット",
+  "item.cobblemonarmory.blaziken_armor_chestplate": "バシャーモチェストプレート",
+  "item.cobblemonarmory.blaziken_armor_leggings": "バシャーモレギンス",
+  "item.cobblemonarmory.blaziken_armor_boots": "バシャーモブーツ",
+
+  "item.cobblemonarmory.shiny_blaziken_armor_helmet": "色違いバシャーモヘルメット",
+  "item.cobblemonarmory.shiny_blaziken_armor_chestplate": "色違いバシャーモチェストプレート",
+  "item.cobblemonarmory.shiny_blaziken_armor_leggings": "色違いバシャーモレギンス",
+  "item.cobblemonarmory.shiny_blaziken_armor_boots": "色違いバシャーモブーツ",
+
+  "item.cobblemonarmory.torterra_armor_helmet": "ドダイトスヘルメット",
+  "item.cobblemonarmory.torterra_armor_chestplate": "ドダイトスチェストプレート",
+  "item.cobblemonarmory.torterra_armor_leggings": "ドダイトスレギンス",
+  "item.cobblemonarmory.torterra_armor_boots": "ドダイトスブーツ",
+
+  "item.cobblemonarmory.shiny_torterra_armor_helmet": "色違いドダイトスヘルメット",
+  "item.cobblemonarmory.shiny_torterra_armor_chestplate": "色違いドダイトスチェストプレート",
+  "item.cobblemonarmory.shiny_torterra_armor_leggings": "色違いドダイトスレギンス",
+  "item.cobblemonarmory.shiny_torterra_armor_boots": "色違いドダイトスブーツ",
+
   "item.cobblemonarmory.ceruledge_armor_helmet": "ソウブレイズヘルメット",
   "item.cobblemonarmory.ceruledge_armor_chestplate": "ソウブレイズチェストプレート",
   "item.cobblemonarmory.ceruledge_armor_leggings": "ソウブレイズレギンス",
@@ -99,6 +123,16 @@
   "item.cobblemonarmory.shiny_haxorus_armor_helmet": "色違いオノノクスヘルメット",
   "item.cobblemonarmory.shiny_haxorus_armor_chestplate": "色違いオノノクスチェストプレート",
   "item.cobblemonarmory.shiny_haxorus_armor_leggings": "色違いオノノクスレギンス",
+
+  "item.cobblemonarmory.corviknight_armor_helmet": "アーマーガアヘルメット",
+  "item.cobblemonarmory.corviknight_armor_chestplate": "アーマーガアチェストプレート",
+  "item.cobblemonarmory.corviknight_armor_leggings": "アーマーガアレギンス",
+  "item.cobblemonarmory.corviknight_armor_boots": "アーマーガアブーツ",
+
+  "item.cobblemonarmory.shiny_corviknight_armor_helmet": "色違いアーマーガアヘルメット",
+  "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "色違いアーマーガアチェストプレート",
+  "item.cobblemonarmory.shiny_corviknight_armor_leggings": "色違いアーマーガアレギンス",
+  "item.cobblemonarmory.shiny_corviknight_armor_boots": "色違いアーマーガアブーツ",
 
   "item.cobblemonarmory.eevee_armor_helmet": "イーブイヘルメット",
   "item.cobblemonarmory.eevee_armor_chestplate": "イーブイチェストプレート",

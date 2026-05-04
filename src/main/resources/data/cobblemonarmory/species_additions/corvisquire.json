@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:corvisquire",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:corviknight_feathers",
+       "percentage": 50.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}
