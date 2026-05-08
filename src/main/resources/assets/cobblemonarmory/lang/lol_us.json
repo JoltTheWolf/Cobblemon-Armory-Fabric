@@ -39,6 +39,7 @@
   "item.cobblemonarmory.venusaur_flower": "Venusaur Flowr",
   "item.cobblemonarmory.metagross_plate": "Metagross Plat",
   "item.cobblemonarmory.corviknight_feathers": "Corviknight Feathrz",
+  "item.cobblemonarmory.mimikyu_fabric": "Mimikyu Fabrk",
 
   "item.cobblemonarmory.bastiodon_shield": "Bastiodon Shield",
   "item.cobblemonarmory.tinkaton_hammer": "Tinkaton Hammr",
@@ -131,6 +132,12 @@
   "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "SHINY Corviknight Chest",
   "item.cobblemonarmory.shiny_corviknight_armor_leggings": "SHINY Corviknight Legginz",
   "item.cobblemonarmory.shiny_corviknight_armor_boots": "SHINY Corviknight Bootz",
+
+  "item.cobblemonarmory.mimikyu_armor_helmet": "Mimikyu Helm",
+  "item.cobblemonarmory.mimikyu_armor_chestplate": "Mimikyu Chest",
+
+  "item.cobblemonarmory.shiny_mimikyu_armor_helmet": "SHINY Mimikyu Helm",
+  "item.cobblemonarmory.shiny_mimikyu_armor_chestplate": "SHINY Mimikyu Chest",
 
   "item.cobblemonarmory.eevee_armor_helmet": "Eevee Helm",
   "item.cobblemonarmory.eevee_armor_chestplate": "Eevee Chest",

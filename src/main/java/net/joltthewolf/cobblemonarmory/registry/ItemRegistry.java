@@ -66,6 +66,7 @@ public final class ItemRegistry {
     public static final Item VENUSAUR_FLOWER = register("venusaur_flower", new Item(new Item.Properties().stacksTo(64)));
     public static final Item METAGROSS_PLATE = register("metagross_plate", new Item(new Item.Properties().stacksTo(64)));
     public static final Item CORVIKNIGHT_FEATHERS = register("corviknight_feathers", new Item(new Item.Properties().stacksTo(64)));
+    public static final Item MIMIKYU_FABRIC = register("mimikyu_fabric", new Item(new Item.Properties().stacksTo(64)));
 
     //WEAPONS
     public static final Item TINKATON_HAMMER = registerItem("tinkaton_hammer", new TinkatonHammerItem(new Item.Properties().stacksTo(1)));
@@ -161,6 +162,13 @@ public final class ItemRegistry {
     public static final Item SHINY_HAXORUS_CHESTPLATE = registerItem("shiny_haxorus_armor_chestplate", new ShinyHaxorusArmorItem(SHINY_HAXORUS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
     public static final Item SHINY_HAXORUS_LEGGINGS = registerItem("shiny_haxorus_armor_leggings", new ShinyHaxorusArmorItem(SHINY_HAXORUS_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, ArmorRegistry.commonProps(ArmorItem.Type.LEGGINGS)));
     public static final Item SHINY_HAXORUS_BOOTS = registerItem("shiny_haxorus_armor_boots", new ShinyHaxorusArmorItem(SHINY_HAXORUS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, ArmorRegistry.commonProps(ArmorItem.Type.BOOTS)));
+
+    public static final Item MIMIKYU_HELMET = registerItem("mimikyu_armor_helmet", new MimikyuArmorItem(MIMIKYU_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item MIMIKYU_CHESTPLATE = registerItem("mimikyu_armor_chestplate", new MimikyuArmorItem(MIMIKYU_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+
+    public static final Item SHINY_MIMIKYU_HELMET = registerItem("shiny_mimikyu_armor_helmet", new ShinyMimikyuArmorItem(SHINY_MIMIKYU_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
+    public static final Item SHINY_MIMIKYU_CHESTPLATE = registerItem("shiny_mimikyu_armor_chestplate", new ShinyMimikyuArmorItem(SHINY_MIMIKYU_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));
+
 
     public static final Item EEVEE_HELMET = registerItem("eevee_armor_helmet", new EeveeArmorItem(EEVEE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, ArmorRegistry.commonProps(ArmorItem.Type.HELMET)));
     public static final Item EEVEE_CHESTPLATE = registerItem("eevee_armor_chestplate", new EeveeArmorItem(EEVEE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, ArmorRegistry.commonProps(ArmorItem.Type.CHESTPLATE)));

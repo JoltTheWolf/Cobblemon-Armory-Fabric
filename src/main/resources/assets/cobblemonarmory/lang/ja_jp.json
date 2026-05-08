@@ -39,7 +39,7 @@
   "item.cobblemonarmory.venusaur_flower": "フシギバナの花",
   "item.cobblemonarmory.metagross_plate": "メタグロスのプレート",
   "item.cobblemonarmory.corviknight_feathers": "アーマーガアの羽",
-
+  "item.cobblemonarmory.mimikyu_fabric": "ミミッキュの布",
 
 
   "item.cobblemonarmory.bastiodon_shield": "トリデプスの盾",
@@ -133,6 +133,12 @@
   "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "色違いアーマーガアチェストプレート",
   "item.cobblemonarmory.shiny_corviknight_armor_leggings": "色違いアーマーガアレギンス",
   "item.cobblemonarmory.shiny_corviknight_armor_boots": "色違いアーマーガアブーツ",
+
+  "item.cobblemonarmory.mimikyu_armor_helmet": "ミミッキュヘルメット",
+  "item.cobblemonarmory.mimikyu_armor_chestplate": "ミミッキュチェストプレート",
+
+  "item.cobblemonarmory.shiny_mimikyu_armor_helmet": "色違いミミッキュヘルメット",
+  "item.cobblemonarmory.shiny_mimikyu_armor_chestplate": "色違いミミッキュチェストプレート",
 
   "item.cobblemonarmory.eevee_armor_helmet": "イーブイヘルメット",
   "item.cobblemonarmory.eevee_armor_chestplate": "イーブイチェストプレート",

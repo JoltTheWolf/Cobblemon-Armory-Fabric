@@ -1,0 +1,14 @@
+{
+ "target": "cobblemon:mimikyu",
+
+ "drops": {
+   "amount": 2,
+   "entries": [
+     {
+       "item": "cobblemonarmory:mimikyu_fabric",
+       "percentage": 75.0,
+       "quantityRange": "0-2"
+     }
+   ]
+ }
+}

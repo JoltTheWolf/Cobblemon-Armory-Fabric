@@ -39,6 +39,7 @@
   "item.cobblemonarmory.venusaur_flower": "Fleur de Florizarre",
   "item.cobblemonarmory.metagross_plate": "Plaque de Métalosse",
   "item.cobblemonarmory.corviknight_feathers": "Plumes de Corvaillus",
+  "item.cobblemonarmory.mimikyu_fabric": "Tissu de Mimiqui",
 
   "item.cobblemonarmory.bastiodon_shield": "Bouclier de Bastiodon",
   "item.cobblemonarmory.tinkaton_hammer": "Marteau de Forgelina",
@@ -131,6 +132,12 @@
   "item.cobblemonarmory.shiny_corviknight_armor_chestplate": "Plastron de Corvaillus Chromatique",
   "item.cobblemonarmory.shiny_corviknight_armor_leggings": "Jambières de Corvaillus Chromatique",
   "item.cobblemonarmory.shiny_corviknight_armor_boots": "Bottes de Corvaillus Chromatique",
+
+  "item.cobblemonarmory.mimikyu_armor_helmet": "Casque de Mimiqui",
+  "item.cobblemonarmory.mimikyu_armor_chestplate": "Plastron de Mimiqui",
+
+  "item.cobblemonarmory.shiny_mimikyu_armor_helmet": "Casque de Mimiqui Chromatique",
+  "item.cobblemonarmory.shiny_mimikyu_armor_chestplate": "Plastron de Mimiqui Chromatique",
 
   "item.cobblemonarmory.eevee_armor_helmet": "Casque d’Évoli",
   "item.cobblemonarmory.eevee_armor_chestplate": "Plastron d’Évoli",

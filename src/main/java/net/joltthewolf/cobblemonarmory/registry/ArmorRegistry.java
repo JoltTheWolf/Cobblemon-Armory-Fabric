@@ -66,6 +66,9 @@ public final class ArmorRegistry {
     public static final Holder<ArmorMaterial> SQUIRTLE_GLASSES_ARMOR_MATERIAL = reg("squirtle_glasses");
     public static final Holder<ArmorMaterial> SLOWKING_CROWN_ARMOR_MATERIAL = reg("slowking_crown");
     public static final Holder<ArmorMaterial> GRENINJA_SCARF_ARMOR_MATERIAL = reg("greninja_scarf");
+    public static final Holder<ArmorMaterial> MIMIKYU_ARMOR_MATERIAL = reg("mimikyu");
+    public static final Holder<ArmorMaterial> SHINY_MIMIKYU_ARMOR_MATERIAL = reg("shiny_mimikyu");
+
     // Trainer Hats
     public static final Holder<ArmorMaterial> REDS_HAT_ARMOR_MATERIAL = regLeather("reds_hat");
     public static final Holder<ArmorMaterial> ETHANS_HAT_ARMOR_MATERIAL = regLeather("ethans_hat");
