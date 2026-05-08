@@ -53,6 +53,7 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.VENUSAUR_FLOWER);
                         output.accept(ItemRegistry.METAGROSS_PLATE);
                         output.accept(ItemRegistry.CORVIKNIGHT_FEATHERS);
+                        output.accept(ItemRegistry.MIMIKYU_FABRIC);
 
                         //Weapons
                         output.accept(ItemRegistry.TINKATON_HAMMER);
@@ -147,6 +148,12 @@ public final class ItemGroupRegistry {
                         output.accept(ItemRegistry.SHINY_CORVIKNIGHT_CHESTPLATE);
                         output.accept(ItemRegistry.SHINY_CORVIKNIGHT_LEGGINGS);
                         output.accept(ItemRegistry.SHINY_CORVIKNIGHT_BOOTS);
+
+                        output.accept(ItemRegistry.MIMIKYU_HELMET);
+                        output.accept(ItemRegistry.MIMIKYU_CHESTPLATE);
+
+                        output.accept(ItemRegistry.SHINY_MIMIKYU_HELMET);
+                        output.accept(ItemRegistry.SHINY_MIMIKYU_CHESTPLATE);
 
                         output.accept(ItemRegistry.EEVEE_HELMET);
                         output.accept(ItemRegistry.EEVEE_CHESTPLATE);
