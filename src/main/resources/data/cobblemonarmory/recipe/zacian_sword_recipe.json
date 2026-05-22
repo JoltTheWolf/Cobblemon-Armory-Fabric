@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "cobblemonarmory:cobblemon_smithing_upgrade"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "result": {
+    "id": "cobblemonarmory:zacian_sword"
+  }
+}
