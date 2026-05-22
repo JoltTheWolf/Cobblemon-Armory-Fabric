@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "L": {
-      "item": "minecraft:light_grey_wool"
+      "item": "minecraft:light_gray_wool"
     },
     "B": {
       "item": "minecraft:black_wool"
@@ -16,7 +16,7 @@
     }
   },
   "pattern": [
-    "LB",
+    "LB ",
     "BIL",
     "LRR"
   ],

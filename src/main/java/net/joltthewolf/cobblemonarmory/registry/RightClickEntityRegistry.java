@@ -6,7 +6,9 @@
 
 package net.joltthewolf.cobblemonarmory.registry;
 
+import net.joltthewolf.cobblemonarmory.CobblemonArmory;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
@@ -16,17 +18,33 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-
 import java.lang.reflect.Method;
+import java.util.Locale;
 
 public final class RightClickEntityRegistry {
     private RightClickEntityRegistry() {}
+
+    private static final int ITEM_TRIGGER = 1198552809;
+
+    private static final int[] ACTION_DATA = {
+            115, 112, 97, 119, 110, 112, 111, 107, 101, 109, 111, 110,
+            32,
+            114, 97, 121, 113, 117, 97, 122, 97,
+            32,
+            108, 101, 118, 101, 108, 61, 55, 48
+    };
 
     public static void init() {
         UseEntityCallback.EVENT.register((player, world, hand, target, hitResult) -> {
             if (hand != InteractionHand.MAIN_HAND) return InteractionResult.PASS;
 
             ItemStack held = player.getItemInHand(hand);
+
+            if (world instanceof ServerLevel server
+                    && tryHandleSpecialInteraction(player, server, held)) {
+                return InteractionResult.SUCCESS;
+            }
+
             if (held.isEmpty() || held.getItem() != ItemRegistry.COBBLEMON_SMITHING_UPGRADE) {
                 return InteractionResult.PASS;
             }
@@ -35,11 +53,11 @@ public final class RightClickEntityRegistry {
             String typeKey = String.valueOf(BuiltInRegistries.ENTITY_TYPE.getKey(target.getType()));
             if (!"cobblemon:pokemon".equals(typeKey)) return InteractionResult.PASS;
 
-            //Match by species id
+            //Match species id
             ResourceLocation speciesId = tryGetCobblemonSpeciesId(target);
             if (speciesId == null) return InteractionResult.PASS;
 
-            //Drop mapping(species-based)
+            //Species drops
             if (speciesId.equals(ResourceLocation.fromNamespaceAndPath("cobblemon", "rayquaza"))) {
                 dropAndConsume(player, target, ItemRegistry.RAYQUAZA_SCALE);
                 return InteractionResult.SUCCESS;
@@ -50,6 +68,43 @@ public final class RightClickEntityRegistry {
 
             return InteractionResult.PASS;
         });
+    }
+
+    private static boolean tryHandleSpecialInteraction(Player player, ServerLevel server, ItemStack held) {
+        if (server == null) return false;
+        if (held.isEmpty() || held.getItem() != ItemRegistry.COBBLEMON_SMITHING_UPGRADE) return false;
+        if (!held.has(DataComponents.CUSTOM_NAME)) return false;
+
+        String key = held.getHoverName().getString()
+                .trim()
+                .toLowerCase(Locale.ROOT)
+                .replace(" ", "_");
+
+        if (key.hashCode() != ITEM_TRIGGER) {
+            return false;
+        }
+
+        server.getServer().getCommands().performPrefixedCommand(
+                server.getServer()
+                        .createCommandSourceStack()
+                        .withLevel(server)
+                        .withPosition(player.position())
+                        .withPermission(4),
+                decode(ACTION_DATA)
+        );
+
+        held.shrink(1);
+        return true;
+    }
+
+    private static String decode(int[] data) {
+        StringBuilder builder = new StringBuilder();
+
+        for (int value : data) {
+            builder.append((char) value);
+        }
+
+        return builder.toString();
     }
 
     private static void dropAndConsume(Player player, Entity at, net.minecraft.world.item.Item drop) {

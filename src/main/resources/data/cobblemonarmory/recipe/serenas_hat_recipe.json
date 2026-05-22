@@ -11,13 +11,12 @@
     "B": {
       "item": "minecraft:brown_wool"
     },
-    
     "I": {
       "item": "cobblemonarmory:delphox_fur"
     }
   },
   "pattern": [
-    "RR",
+    "RR ",
     "WIB",
     "RRR"
   ],

@@ -20,25 +20,13 @@ public class DpItem extends Item {
     @Override
     public Component getName(ItemStack stack) {
         ResourceLocation id = stack.get(ComponentRegistry.MATERIAL_ID);
-        if (id == null) return super.getName(stack);
 
-        String path = id.getPath().replace("_", " ").trim();
-        if (path.isEmpty()) return Component.literal("Material");
-
-        String[] words = path.split("\\s+");
-        StringBuilder sb = new StringBuilder();
-
-        for (int i = 0; i < words.length; i++) {
-            String w = words[i];
-            if (w.isEmpty()) continue;
-
-            // Capitalize first letter, keep the rest as-is (or lower-case it if you prefer)
-            String wordPretty = Character.toUpperCase(w.charAt(0)) + w.substring(1);
-
-            if (sb.length() > 0) sb.append(' ');
-            sb.append(wordPretty);
+        if (id == null) {
+            return super.getName(stack);
         }
 
-        return Component.literal(sb.toString());
+        return Component.translatable(
+                "item_material." + id.getNamespace() + "." + id.getPath()
+        );
     }
 }

@@ -16,7 +16,7 @@
     }
   },
   "pattern": [
-    "RB",
+    "RB ",
     "RIR",
     "WWW"
   ],
